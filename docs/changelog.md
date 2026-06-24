@@ -25,7 +25,7 @@ This document complements the Git history by highlighting changes that have a me
 
 Update this document when there are relevant changes related to:
 
-* New portfolio sections.
+* New portfolio routes.
 * New project showcase capabilities.
 * Architectural changes.
 * Major application reorganizations.
@@ -33,7 +33,7 @@ Update this document when there are relevant changes related to:
 * Addition or removal of technologies.
 * Deployment process changes.
 * Changes affecting user experience.
-* Creation or removal of major documentation areas.
+* Significant documentation milestones.
 * Publication of a new project version.
 
 ---
@@ -75,9 +75,9 @@ Examples:
 
 Examples:
 
-* New sections.
-* New projects.
-* New documentation areas.
+* New routes.
+* New portfolio sections.
+* New project showcases.
 * New integrations.
 
 ### What functionality changed?
@@ -129,6 +129,42 @@ The changelog should summarize relevant project evolution while keeping entries 
 
 ---
 
+## Version History
+
+## [0.1.0] - 2026-06-23
+
+### Added
+
+* Initial project documentation.
+* Architectural documentation.
+* Deployment documentation.
+* Project glossary.
+* Project roadmap.
+* Technical decision log.
+* React Router integration.
+* Route-based portfolio structure.
+
+### Changed
+
+* Defined Full Stack professional positioning.
+* Established documentation-driven development workflow.
+* Adopted centralized content strategy.
+* Adopted bilingual portfolio strategy.
+
+### Removed
+
+* Public documentation section from the portfolio architecture.
+
+### Fixed
+
+* Aligned architecture, roadmap, and project decisions.
+
+### Notes
+
+This version establishes the foundation of the portfolio, including documentation, architecture, deployment strategy, and navigation model.
+
+---
+
 ## Versioning Convention
 
 The project follows Semantic Versioning.
@@ -165,10 +201,10 @@ Represents new functionality that remains compatible with previous versions.
 
 Examples:
 
-* New portfolio sections.
+* New portfolio routes.
 * New project showcases.
-* New documentation areas.
 * New integrations.
+* New content areas.
 
 ### PATCH
 

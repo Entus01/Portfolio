@@ -2,409 +2,301 @@
 
 ## Purpose
 
-This document records the significant decisions made throughout the Portfolio project.
+This document records significant technical, architectural, organizational, and strategic decisions made throughout the Portfolio project.
 
-Its purpose is to preserve the context, reasoning, and trade-offs behind architectural, organizational, and strategic decisions that have a long-term impact on the project.
+Its purpose is to preserve the reasoning behind important choices, reduce reliance on implicit knowledge, and provide historical context for future maintenance and evolution.
 
-Well-documented decisions reduce reliance on implicit knowledge and provide historical context for future maintenance and evolution.
+Unlike the architecture document, which describes the current implementation, this document explains why important decisions were made.
 
 ---
 
 ## Objectives
 
-* Document important project decisions.
-* Preserve the reasoning behind long-term choices.
-* Reduce knowledge loss over time.
-* Facilitate future reviews and revisions.
-* Improve traceability throughout project evolution.
-* Provide context for architectural and organizational changes.
-* Maintain consistency across future development decisions.
+* Document significant project decisions.
+* Preserve decision rationale.
+* Improve long-term maintainability.
+* Facilitate future decision making.
+* Reduce repeated discussions about previously resolved topics.
+* Provide historical context for project evolution.
 
 ---
 
 ## When to Update this Document
 
-Record a new decision when it affects:
+Update this document when:
 
-* Application architecture.
-* Information architecture.
-* Project organization.
-* Technologies used.
-* Documentation strategy.
-* Navigation model.
-* Deployment strategy.
-* Professional positioning.
-* Long-term development practices.
-* Any change with significant future impact.
+* A significant architectural decision is made.
+* A major technology is adopted or removed.
+* A new development strategy is introduced.
+* A decision affects multiple areas of the project.
+* A long-term direction is established or modified.
+* An important project constraint is introduced.
 
 ---
 
 ## When Not to Update this Document
 
-It is not necessary to record:
+It is not necessary to update this document for:
 
-* Minor bug fixes.
-* Visual adjustments.
+* Minor implementation choices.
+* Routine development activities.
 * Small refactors.
 * Temporary experiments.
-* Routine maintenance tasks.
-* Content updates without strategic impact.
-* Changes with no long-term consequences.
+* Visual adjustments.
+* Day-to-day coding decisions.
 
 ---
 
-## Decision Records
+## Decision Format
 
-### DEC-001
+Each decision should include:
 
-**Date:** 2026-06-20
-**Status:** Accepted
-
-**Title:** Position the Portfolio as a Full Stack Developer Portfolio
-
-**Context**
-
-The portfolio requires a clear professional identity that accurately reflects the developer's skills, experience, and long-term career direction.
-
-**Options Considered**
-
-1. Frontend Developer
-2. Full Stack Developer
-3. Software Engineer
-
-**Decision**
-
-Position the portfolio as a Full Stack Developer portfolio.
-
-**Rationale**
-
-The developer's experience spans both frontend and backend development. The portfolio should communicate a complete view of technical capabilities rather than emphasizing a single specialization.
-
-**Impact**
-
-* Influences portfolio messaging.
-* Influences project selection.
-* Influences technology presentation.
-* Influences future portfolio evolution.
+* Identifier.
+* Title.
+* Status.
+* Context.
+* Decision.
+* Consequences.
 
 ---
 
-### DEC-002
-
-**Date:** 2026-06-20
-**Status:** Accepted
-
-**Title:** Adopt a Single Page Application Architecture
-
-**Context**
-
-The portfolio requires a navigation model that allows visitors to quickly explore professional information without unnecessary complexity.
-
-**Options Considered**
-
-1. Single Page Application (SPA)
-2. Multi Page Application (MPA)
-3. Hybrid Approach
-
-**Decision**
-
-Adopt a Single Page Application architecture.
-
-**Rationale**
-
-A SPA provides a smooth navigation experience, simplifies user journeys, reduces maintenance complexity, and supports the portfolio's goal of presenting information efficiently.
-
-**Impact**
-
-* Simplified navigation.
-* Reduced routing complexity.
-* Faster access to portfolio sections.
-* Improved browsing experience.
+# Decision Log
 
 ---
 
-### DEC-003
+## DEC-001 — Position the Portfolio as Full Stack Developer
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Keep Documentation as an Internal Development Asset
+### Context
 
-**Context**
+The portfolio requires a clear professional identity that guides project selection, content organization, and communication.
 
-The project adopts a documentation-driven development process, but it is necessary to define whether documentation should be exposed as part of the visitor experience.
+### Decision
 
-**Options Considered**
+The portfolio will present a Full Stack Developer profile.
 
-1. Public documentation section.
-2. Documentation integrated into project pages.
-3. Internal documentation only.
+### Consequences
 
-**Decision**
-
-Maintain documentation as an internal development asset.
-
-**Rationale**
-
-Documentation exists to support development, organization, and maintenance of the portfolio. Exposing it publicly would add unnecessary repetition and distract from the portfolio's primary purpose.
-
-**Impact**
-
-* Documentation remains project-focused.
-* Portfolio content remains concise.
-* Visitor attention remains focused on experience and projects.
+* Projects should support a Full Stack narrative.
+* Content should demonstrate both frontend and backend capabilities.
+* Technical decisions should reinforce this positioning.
+* Portfolio growth should remain aligned with this professional identity.
 
 ---
 
-### DEC-004
+## DEC-002 — Adopt a Balanced Portfolio Structure
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Maintain a Balanced Portfolio Structure
+### Context
 
-**Context**
+A portfolio can overemphasize either visual presentation or technical depth.
 
-The portfolio requires a clear strategy regarding what content receives the most emphasis.
+### Decision
 
-**Options Considered**
+The portfolio will maintain a balanced approach between presentation, technical content, and professional communication.
 
-1. Experience-first.
-2. Projects-first.
-3. Documentation-first.
-4. Balanced representation.
+### Consequences
 
-**Decision**
-
-Maintain a balanced representation of experience, skills, philosophy, and projects.
-
-**Rationale**
-
-No single area fully represents the developer's profile. A balanced approach provides a more complete and accurate professional presentation.
-
-**Impact**
-
-* Balanced information hierarchy.
-* More complete professional narrative.
-* Reduced bias toward a single aspect of the profile.
+* Technical depth should remain accessible.
+* Visual design should support content rather than dominate it.
+* Portfolio sections should remain focused and purposeful.
 
 ---
 
-### DEC-005
+## DEC-003 — Keep Documentation as an Internal Development Asset
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Centralize Portfolio Content Through Shared Data Sources
+### Context
 
-**Context**
+Project documentation is important for maintainability but does not directly contribute to the portfolio's public value proposition.
 
-Portfolio content should remain easy to maintain and scale as new sections and projects are added.
+### Decision
 
-**Options Considered**
+Documentation will support development, maintenance, and project evolution but will not be exposed as a public portfolio feature.
 
-1. Hardcoded content throughout components.
-2. Shared centralized data.
-3. External CMS.
+### Consequences
 
-**Decision**
+* Documentation remains internal to the repository.
+* Portfolio visitors interact with portfolio content rather than project documentation.
+* Architectural and organizational decisions remain documented without becoming portfolio features.
+* Documentation does not require dedicated public routes.
 
-Centralize portfolio content through shared data sources.
+---
 
-**Rationale**
+## DEC-004 — Prioritize a Balanced User Experience
 
-A centralized approach improves maintainability, consistency, and future scalability while keeping implementation complexity under control.
+**Status:** Accepted
 
-**Impact**
+### Context
 
-* Easier content maintenance.
+The portfolio should balance aesthetics, usability, performance, and maintainability.
+
+### Decision
+
+User experience decisions should consider both presentation quality and long-term sustainability.
+
+### Consequences
+
+* Avoid unnecessary complexity.
+* Prioritize clarity over visual excess.
+* Maintain accessibility and responsiveness.
+
+---
+
+## DEC-005 — Adopt a Centralized Data Strategy
+
+**Status:** Accepted
+
+### Context
+
+Portfolio information may be reused across multiple views and components.
+
+### Decision
+
+Content should be managed through centralized data sources whenever possible.
+
+### Consequences
+
+* Reduced duplication.
 * Improved consistency.
-* Simplified future expansion.
+* Easier maintenance and updates.
+* Better scalability as the portfolio grows.
 
 ---
 
-### DEC-006
+## DEC-006 — Developer Philosophy First
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Present Developer Philosophy Before Technical Achievements
+### Context
 
-**Context**
+The portfolio should communicate not only technical output but also the principles behind development decisions.
 
-The portfolio must establish a narrative order for presenting professional information.
+### Decision
 
-**Options Considered**
+Developer philosophy will be treated as a first-class element of the portfolio narrative.
 
-1. Projects first.
-2. Experience first.
-3. Philosophy first.
+### Consequences
 
-**Decision**
-
-Present development philosophy before technical achievements.
-
-**Rationale**
-
-Understanding how the developer approaches software development provides important context for interpreting projects, experience, and technical decisions.
-
-**Impact**
-
-* Stronger personal narrative.
-* Clearer professional identity.
-* Better contextualization of technical work.
+* Content should reflect development values.
+* Technical decisions should remain visible through project presentation.
+* Portfolio messaging should emphasize software craftsmanship.
 
 ---
 
-### DEC-007
+## DEC-007 — Select Projects that Support the Full Stack Narrative
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Select Projects that Support the Full Stack Narrative
+### Context
 
-**Context**
+Not every project contributes equally to the desired professional positioning.
 
-Not every project contributes equally to the portfolio's professional positioning.
+### Decision
 
-**Options Considered**
+Projects should be selected based on their ability to reinforce the Full Stack Developer narrative.
 
-1. Showcase all projects.
-2. Showcase visually attractive projects.
-3. Showcase projects aligned with the Full Stack narrative.
+### Consequences
 
-**Decision**
-
-Select projects that reinforce the Full Stack Developer positioning.
-
-**Rationale**
-
-Projects should support the portfolio's primary objective of demonstrating broad technical capability across the application stack.
-
-**Impact**
-
-* More coherent project selection.
-* Stronger professional positioning.
-* Improved portfolio consistency.
+* Project selection becomes intentional.
+* Technical depth is prioritized over project quantity.
+* Selected projects may evolve into dedicated case studies when they provide additional value to the portfolio narrative.
 
 ---
 
-### DEC-008
+## DEC-008 — Maintain Documentation Exclusively for the Portfolio
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Limit Documentation Scope to Portfolio Development
+### Context
 
-**Context**
+The documentation system exists to support this project and should not attempt to become a generalized documentation platform.
 
-The project requires clear boundaries regarding documentation responsibilities.
+### Decision
 
-**Options Considered**
+Documentation will remain focused exclusively on the portfolio.
 
-1. Portfolio documentation only.
-2. Portfolio documentation plus technical articles.
-3. Open documentation repository.
+### Consequences
 
-**Decision**
-
-Maintain documentation focused exclusively on portfolio development.
-
-**Rationale**
-
-The documentation system exists to support project organization and maintenance rather than becoming a separate content platform.
-
-**Impact**
-
-* Clear documentation boundaries.
-* Reduced maintenance overhead.
-* Stronger project focus.
+* Documentation scope remains controlled.
+* Project documents remain focused and maintainable.
+* Documentation growth remains aligned with portfolio needs.
 
 ---
 
-### DEC-009
+## DEC-009 — Adopt a Cat-Inspired Identity
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Adopt a Cat-Inspired Design Identity
+### Context
 
-**Context**
+The portfolio should communicate a recognizable personality while maintaining professional credibility.
 
-The portfolio requires a recognizable visual and conceptual identity.
+### Decision
 
-**Options Considered**
+The visual and conceptual identity will be inspired by qualities commonly associated with cats.
 
-1. Generic professional design.
-2. Minimalist technical design.
-3. Cat-inspired aesthetic identity.
+### Consequences
 
-**Decision**
-
-Adopt a cat-inspired identity focused on aesthetics, logic, and functionality.
-
-**Rationale**
-
-The chosen identity reflects personal interests while remaining compatible with a professional presentation and emphasizing clarity, organization, and thoughtful design.
-
-**Impact**
-
-* Stronger visual identity.
-* Increased memorability.
-* More distinctive portfolio personality.
+* Design decisions may emphasize curiosity, precision, elegance, and attention to detail.
+* Personality should complement professionalism.
+* Visual identity should remain subtle and intentional.
 
 ---
 
-### DEC-010
+## DEC-010 — Support Bilingual Content
 
-**Date:** 2026-06-20
 **Status:** Accepted
 
-**Title:** Provide Bilingual Content Support
+### Context
 
-**Context**
+The portfolio is intended to reach both Spanish-speaking and English-speaking audiences.
 
-The portfolio is intended for both local and international audiences.
+### Decision
 
-**Options Considered**
+The portfolio will support both English and Spanish content.
 
-1. Spanish only.
-2. English only.
-3. Bilingual content.
+### Consequences
 
-**Decision**
-
-Provide bilingual content support.
-
-**Rationale**
-
-Supporting multiple languages increases accessibility and broadens the portfolio's reach without altering its core message.
-
-**Impact**
-
-* Wider audience reach.
-* Improved accessibility.
-* Greater professional flexibility.
+* Content must remain consistent across languages.
+* Language switching becomes part of the user experience.
+* Future content additions should consider both languages.
 
 ---
 
-## Decision Statuses
+## DEC-011 — Adopt Route-Based Navigation
 
-### Proposed
+**Status:** Accepted
 
-The decision has been identified but has not yet been adopted.
+### Context
 
-### Accepted
+The portfolio requires a navigation model that supports scalability, direct access to content, and future growth opportunities.
 
-The decision has been approved and is part of the project.
+### Decision
 
-### Superseded
+The portfolio will use route-based navigation as its primary navigation strategy.
 
-The decision has been replaced by a newer one.
+### Consequences
 
-### Rejected
+* Portfolio content is organized through dedicated routes.
+* Visitors can access content directly through URLs.
+* Navigation becomes more structured and predictable.
+* Future project case studies can be implemented naturally through additional routes.
+* The portfolio avoids dependence on long scrolling experiences.
 
-The decision was considered but ultimately discarded.
+### Initial Route Structure
+
+```text
+/
+/about
+/skills
+/experience
+/projects
+/contact
+```
 
 ---
 
@@ -412,46 +304,36 @@ The decision was considered but ultimately discarded.
 
 ### architecture.md
 
-Documents the current architecture.
-
-This document explains why that architecture was adopted.
-
-### changelog.md
-
-Documents what changed.
-
-This document explains why those changes were made.
+Describes the current implementation resulting from these decisions.
 
 ### roadmap.md
 
-Documents future initiatives.
+Defines future initiatives that may introduce new decisions.
 
-This document records the decisions that eventually shape those initiatives.
+### changelog.md
 
-### rules.md
+Records the implementation and evolution of accepted decisions.
 
-Documents project standards and conventions.
+### glossary.md
 
-This document explains decisions that establish or modify those standards.
+Defines the terminology used throughout this document.
 
 ---
 
 ## Terminology
 
-The terminology used in this document must remain aligned with the definitions established in:
+The terminology used in this document must remain aligned with:
 
 `docs/glossary.md`
 
-When new concepts related to architecture, organization, or decision management require a shared interpretation, they should be registered in the glossary.
-
-This document should use the officially defined terminology and avoid maintaining duplicate definitions.
+When new concepts require a shared interpretation, they should be registered in the glossary rather than redefined here.
 
 ---
 
 ## Fundamental Principle
 
-Important decisions should be recorded together with the context that motivated them.
+This document records why important decisions were made.
 
-Implementations may evolve over time, but understanding why a decision was made helps preserve consistency and supports future project evolution.
+The goal is not to predict the future but to preserve the reasoning that shaped the project at a specific point in time.
 
-Its primary purpose is to capture the reasoning behind long-term choices rather than document implementation details.
+When a decision changes, the previous decision should remain documented as historical context, and a new decision should be recorded to explain the evolution of the project.
