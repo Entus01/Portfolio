@@ -271,12 +271,40 @@ Architecture/
 
 ### CSS files
 
-kebab-case
+Global and shared CSS files should use kebab-case.
 
 ```text
+index.css
+reset.css
+theme-dark.css
 public-tabs.css
 login-form.css
 ```
+
+CSS files associated with a React component may use the same PascalCase name as the component when the repository follows a component-per-folder organization.
+
+Examples:
+
+```text
+Navbar/
+├── Navbar.jsx
+└── Navbar.css
+
+Footer/
+├── Footer.jsx
+└── Footer.css
+
+UserCard/
+├── UserCard.jsx
+└── UserCard.css
+```
+
+### Rules
+
+* Use kebab-case for global, shared, and utility style files.
+* Component-specific CSS files may use the same PascalCase name as their associated React component.
+* Maintain consistency throughout the repository.
+* Avoid mixing naming conventions for files that serve the same responsibility.
 
 ### CSS classes
 
