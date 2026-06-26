@@ -6,7 +6,7 @@ import Projects from "../pages/Projects/Projects.jsx";
 import Contact from "../pages/Contact/Contact.jsx";
 
 export const pages = [
-    { id: "home", label: "Home", path:"/", component: Home },
+    { id: "home", label: "Home", path:"/home", component: Home },
     { id: "about", label: "About", path: "/about", component: About },
     { id: "skills", label: "Skills", path: "/skills", component: Skills },
     { id: "experience", label: "Experience", path: "/experience", component: Experience },
