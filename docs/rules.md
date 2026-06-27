@@ -4,8 +4,8 @@ Status: Active
 
 Scope:
 
-* The rules defined in this document are intended to represent stable and long-term conventions.
-* Temporary practices, project-specific decisions, or implementation details should be documented in their corresponding documents instead of being incorporated here.
+- The rules defined in this document are intended to represent stable and long-term conventions.
+- Temporary practices, project-specific decisions, or implementation details should be documented in their corresponding documents instead of being incorporated here.
 
 Primary reference:
 
@@ -59,12 +59,12 @@ revert
 
 ### Rules
 
-* Ideal message <= 72 characters.
-* Use a single language per commit.
-* All commits must be written in English.
-* One logical change per commit.
-* Avoid massive or ambiguous commits.
-* Commits should be atomic and easily reversible.
+- Ideal message <= 72 characters.
+- Use a single language per commit.
+- All commits must be written in English.
+- One logical change per commit.
+- Avoid massive or ambiguous commits.
+- Commits should be atomic and easily reversible.
 
 ### Correct examples
 
@@ -102,20 +102,20 @@ update stuff
 
 ### Allowed tags
 
-* File
-* Constant
-* Function
-* Section
-* TODO
-* FIXME
+- File
+- Constant
+- Function
+- Section
+- TODO
+- FIXME
 
 ### Rules
 
-* Comments should explain the reason for a decision.
-* Avoid describing obvious code.
-* Avoid decorative comments.
-* Avoid obsolete comments.
-* Code should be understandable without relying on extensive comments.
+- Comments should explain the reason for a decision.
+- Avoid describing obvious code.
+- Avoid decorative comments.
+- Avoid obsolete comments.
+- Code should be understandable without relying on extensive comments.
 
 ### Correct example
 
@@ -161,12 +161,12 @@ counter++;
 
 ### Rules
 
-* Document only when it adds context.
-* Prioritize JSDoc for complex functions, components, or modules.
-* Document important responsibilities.
-* Adapt the level of documentation to the project's complexity.
-* Keep documentation synchronized with the code.
-* Avoid redundant or outdated documentation.
+- Document only when it adds context.
+- Prioritize JSDoc for complex functions, components, or modules.
+- Document important responsibilities.
+- Adapt the level of documentation to the project's complexity.
+- Keep documentation synchronized with the code.
+- Avoid redundant or outdated documentation.
 
 ---
 
@@ -196,12 +196,12 @@ docs/
 
 ### Rules
 
-* Keep documentation aligned with the project's actual state.
-* Avoid duplicated documentation across files.
-* Each document should have a clearly defined responsibility.
-* Use `glossary.md` as the official source for shared definitions and terminology.
-* Adapt the amount of documentation to the project's size and needs.
-* Avoid maintaining documents that do not add value to the current context.
+- Keep documentation aligned with the project's actual state.
+- Avoid duplicated documentation across files.
+- Each document should have a clearly defined responsibility.
+- Use `glossary.md` as the official source for shared definitions and terminology.
+- Adapt the amount of documentation to the project's size and needs.
+- Avoid maintaining documents that do not add value to the current context.
 
 ---
 
@@ -232,9 +232,9 @@ useLocalStorage.js
 camelCase
 
 ```js
-currentUser
-calculateTotal
-validateCredentials
+currentUser;
+calculateTotal;
+validateCredentials;
 ```
 
 ### Constants
@@ -242,8 +242,8 @@ validateCredentials
 UPPER_SNAKE_CASE
 
 ```js
-MAX_RETRY_ATTEMPTS
-DEFAULT_LANGUAGE
+MAX_RETRY_ATTEMPTS;
+DEFAULT_LANGUAGE;
 ```
 
 ### Folders
@@ -301,35 +301,39 @@ UserCard/
 
 ### Rules
 
-* Use kebab-case for global, shared, and utility style files.
-* Component-specific CSS files may use the same PascalCase name as their associated React component.
-* Maintain consistency throughout the repository.
-* Avoid mixing naming conventions for files that serve the same responsibility.
+- Use kebab-case for global, shared, and utility style files.
+- Component-specific CSS files may use the same PascalCase name as their associated React component.
+- Maintain consistency throughout the repository.
+- Avoid mixing naming conventions for files that serve the same responsibility.
 
 ### CSS classes
 
 BEM methodology
 
 ```css
-.card {}
-.card__title {}
-.card__description {}
-.card--active {}
+.card {
+}
+.card__title {
+}
+.card__description {
+}
+.card--active {
+}
 ```
 
 ### Rules
 
-* Use descriptive names.
-* Avoid generic names such as:
+- Use descriptive names.
+- Avoid generic names such as:
+  - data
+  - temp
+  - helper
+  - manager
+  - utils
+  - common
+  - misc
 
-  * data
-  * temp
-  * helper
-  * manager
-  * utils
-  * common
-  * misc
-* Maintain consistency throughout the repository.
+- Maintain consistency throughout the repository.
 
 ### Deployment note
 
@@ -341,11 +345,11 @@ The project should respect these conventions to avoid case-sensitive path errors
 
 ### Rules
 
-* Small and reusable components.
-* Avoid complex logic inside JSX.
-* Keep props explicit.
-* Extract reusable logic into hooks when it improves reusability or separation of responsibilities.
-* Avoid components with multiple responsibilities.
+- Small and reusable components.
+- Avoid complex logic inside JSX.
+- Keep props explicit.
+- Extract reusable logic into hooks when it improves reusability or separation of responsibilities.
+- Avoid components with multiple responsibilities.
 
 ### Correct
 
@@ -357,9 +361,7 @@ const canEdit = user.role === "admin";
 
 ```jsx
 {
-  user.role === "admin" &&
-  user.permissions.includes("edit") &&
-  user.active
+  user.role === "admin" && user.permissions.includes("edit") && user.active;
 }
 ```
 
@@ -369,21 +371,23 @@ const canEdit = user.role === "admin";
 
 ### Rules
 
-* Use BEM methodology.
-* Avoid excessively nested selectors.
-* Centralize colors, typography, spacing, and other shared values through variables or design tokens.
-* Maintain visual consistency across modules.
+- Use BEM methodology.
+- Avoid excessively nested selectors.
+- Centralize colors, typography, spacing, and other shared values through variables or design tokens.
+- Maintain visual consistency across modules.
 
 ### Correct
 
 ```css
-.card__title {}
+.card__title {
+}
 ```
 
 ### Incorrect
 
 ```css
-.card .header .title {}
+.card .header .title {
+}
 ```
 
 ---
@@ -403,12 +407,12 @@ const canEdit = user.role === "admin";
 
 ### Rules
 
-* Remove unused imports.
-* Do not keep commented-out dead code.
-* Use Git to recover previous versions.
-* Maintain a consistent import order throughout the project.
-* Keep shared configurations and metadata in a single source of truth.
-* Avoid duplicating configurations or structural data across multiple files or components.
+- Remove unused imports.
+- Do not keep commented-out dead code.
+- Use Git to recover previous versions.
+- Maintain a consistent import order throughout the project.
+- Keep shared configurations and metadata in a single source of truth.
+- Avoid duplicating configurations or structural data across multiple files or components.
 
 ---
 
@@ -416,10 +420,10 @@ const canEdit = user.role === "admin";
 
 ### Rules
 
-* Never commit `.env` files.
-* Keep an up-to-date `.env.example` file when the project uses environment variables.
-* Do not expose credentials in source code.
-* Document all variables required by the project.
+- Never commit `.env` files.
+- Keep an up-to-date `.env.example` file when the project uses environment variables.
+- Do not expose credentials in source code.
+- Document all variables required by the project.
 
 ---
 
@@ -448,10 +452,10 @@ docs/update-readme
 
 ### Rules
 
-* Use kebab-case.
-* Avoid spaces.
-* Avoid generic names.
-* The branch name should clearly describe the goal of the work.
+- Use kebab-case.
+- Avoid spaces.
+- Avoid generic names.
+- The branch name should clearly describe the goal of the work.
 
 ---
 
@@ -459,11 +463,11 @@ docs/update-readme
 
 ### Rules
 
-* One objective per Pull Request.
-* Avoid excessively large Pull Requests.
-* Include sufficient context for review.
-* Keep related documentation synchronized.
-* Resolve feedback before requesting final approval.
+- One objective per Pull Request.
+- Avoid excessively large Pull Requests.
+- Include sufficient context for review.
+- Keep related documentation synchronized.
+- Resolve feedback before requesting final approval.
 
 In individual projects where Pull Requests are not used, these recommendations may apply to the review process before merge or to the main push.
 
@@ -473,15 +477,15 @@ In individual projects where Pull Requests are not used, these recommendations m
 
 ### Rules
 
-* Structural changes should be reflected in `structure.md`.
-* Standard changes should be reflected in `rules.md`.
-* Relevant changes should be reflected in `changelog.md`.
-* New initiatives should be reflected in `roadmap.md`.
-* Important technical decisions should be reflected in `decisions.md`.
-* Deployment or infrastructure changes should be reflected in `deployment.md`.
-* Architectural changes should be reflected in `architecture.md`.
-* New shared terms should be evaluated for inclusion in `glossary.md`.
-* Every centralized source of truth should be kept synchronized with the corresponding documentation when it has architectural or functional impact.
+- Structural changes should be reflected in `structure.md`.
+- Standard changes should be reflected in `rules.md`.
+- Relevant changes should be reflected in `changelog.md`.
+- New initiatives should be reflected in `roadmap.md`.
+- Important technical decisions should be reflected in `decisions.md`.
+- Deployment or infrastructure changes should be reflected in `deployment.md`.
+- Architectural changes should be reflected in `architecture.md`.
+- New shared terms should be evaluated for inclusion in `glossary.md`.
+- Every centralized source of truth should be kept synchronized with the corresponding documentation when it has architectural or functional impact.
 
 ---
 
@@ -496,10 +500,10 @@ npm run build
 
 Additionally:
 
-* Verify absence of console errors.
-* Validate affected functionality.
-* Confirm that documentation remains valid.
-* Check that there are no unused imports.
+- Verify absence of console errors.
+- Validate affected functionality.
+- Confirm that documentation remains valid.
+- Check that there are no unused imports.
 
 These validations are recommended before opening a Pull Request in collaborative projects or before performing the main merge or push in individual projects.
 
@@ -509,23 +513,23 @@ These validations are recommended before opening a Pull Request in collaborative
 
 ### Rules
 
-* In collaborative projects, do not merge without prior review.
-* In individual projects, perform a self-review before the final merge or push.
-* Every relevant modification should be justifiable through commit and history.
+- In collaborative projects, do not merge without prior review.
+- In individual projects, perform a self-review before the final merge or push.
+- Every relevant modification should be justifiable through commit and history.
 
 ---
 
 ## Avoid
 
-* Excessively large files.
-* Components with multiple responsibilities.
-* Redundant comments.
-* Dead code.
-* Ambiguous variables.
-* Unused imports.
-* Overly long functions.
-* Commits with multiple objectives.
-* Refactors mixed with new features.
+- Excessively large files.
+- Components with multiple responsibilities.
+- Redundant comments.
+- Dead code.
+- Ambiguous variables.
+- Unused imports.
+- Overly long functions.
+- Commits with multiple objectives.
+- Refactors mixed with new features.
 
 ---
 
@@ -539,10 +543,10 @@ docs/glossary.md
 
 ## Rules
 
-* Avoid duplicating definitions across multiple documents.
-* Use consistent terminology across repositories.
-* Add new terms to the glossary when they require a shared interpretation.
-* Consider `glossary.md` the official terminological reference source.
+- Avoid duplicating definitions across multiple documents.
+- Use consistent terminology across repositories.
+- Add new terms to the glossary when they require a shared interpretation.
+- Consider `glossary.md` the official terminological reference source.
 
 ---
 

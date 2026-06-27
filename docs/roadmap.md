@@ -12,12 +12,12 @@ Unlike the changelog, which documents completed work, the roadmap focuses on pla
 
 ## Objectives
 
-* Define the future direction of the portfolio.
-* Communicate planned initiatives and priorities.
-* Facilitate project planning.
-* Provide visibility into future improvements.
-* Support long-term decision making.
-* Maintain alignment between project goals and implementation efforts.
+- Define the future direction of the portfolio.
+- Communicate planned initiatives and priorities.
+- Facilitate project planning.
+- Provide visibility into future improvements.
+- Support long-term decision making.
+- Maintain alignment between project goals and implementation efforts.
 
 ---
 
@@ -25,12 +25,12 @@ Unlike the changelog, which documents completed work, the roadmap focuses on pla
 
 Update this document when:
 
-* New initiatives are planned.
-* Project priorities change.
-* Major goals are completed.
-* Long-term objectives evolve.
-* Significant opportunities are identified.
-* Planned work becomes out of scope.
+- New initiatives are planned.
+- Project priorities change.
+- Major goals are completed.
+- Long-term objectives evolve.
+- Significant opportunities are identified.
+- Planned work becomes out of scope.
 
 ---
 
@@ -38,12 +38,12 @@ Update this document when:
 
 It is not necessary to update this document for:
 
-* Completed work already recorded in the changelog.
-* Minor implementation details.
-* Routine maintenance tasks.
-* Small fixes.
-* Temporary experiments.
-* Internal refactors.
+- Completed work already recorded in the changelog.
+- Minor implementation details.
+- Routine maintenance tasks.
+- Small fixes.
+- Temporary experiments.
+- Internal refactors.
 
 ---
 
@@ -53,11 +53,11 @@ The roadmap should focus on initiatives rather than individual implementation ta
 
 Each initiative should:
 
-* Support the portfolio's professional positioning.
-* Reinforce the Full Stack narrative.
-* Improve the user experience.
-* Increase maintainability.
-* Contribute to long-term portfolio evolution.
+- Support the portfolio's professional positioning.
+- Reinforce the Full Stack narrative.
+- Improve the user experience.
+- Increase maintainability.
+- Contribute to long-term portfolio evolution.
 
 The roadmap should remain flexible and may change as priorities evolve.
 
@@ -69,11 +69,11 @@ The project has completed its foundational planning phase and is transitioning i
 
 Current priorities include:
 
-* Design system definition.
-* Portfolio implementation.
-* Content creation.
-* Route development.
-* Professional showcase preparation.
+- Design system definition.
+- Portfolio implementation.
+- Content creation.
+- Route development.
+- Professional showcase preparation.
 
 ---
 
@@ -89,12 +89,12 @@ Establish the foundational structure required for sustainable development.
 
 ### Scope
 
-* Complete project documentation.
-* Finalize project architecture.
-* Finalize project decisions.
-* Establish deployment strategy.
-* Define shared terminology.
-* Prepare implementation foundations.
+- Complete project documentation.
+- Finalize project architecture.
+- Finalize project decisions.
+- Establish deployment strategy.
+- Define shared terminology.
+- Prepare implementation foundations.
 
 ### Expected Outcome
 
@@ -112,12 +112,12 @@ Create a consistent visual language for the portfolio.
 
 ### Scope
 
-* Define typography system.
-* Define spacing system.
-* Define color system.
-* Define component guidelines.
-* Define responsive behavior.
-* Establish accessibility considerations.
+- Define typography system.
+- Define spacing system.
+- Define color system.
+- Define component guidelines.
+- Define responsive behavior.
+- Establish accessibility considerations.
 
 ### Expected Outcome
 
@@ -135,12 +135,12 @@ Implement the core application structure.
 
 ### Scope
 
-* Implement application layout.
-* Implement navigation system.
-* Implement portfolio routes.
-* Implement responsive behavior.
-* Implement route structure.
-* Implement content rendering.
+- Implement application layout.
+- Implement navigation system.
+- Implement portfolio routes.
+- Implement responsive behavior.
+- Implement route structure.
+- Implement content rendering.
 
 ### Expected Outcome
 
@@ -158,12 +158,12 @@ Create and organize portfolio content.
 
 ### Scope
 
-* Create professional profile content.
-* Create developer philosophy content.
-* Create experience content.
-* Create skills content.
-* Create project content.
-* Prepare bilingual content.
+- Create professional profile content.
+- Create developer philosophy content.
+- Create experience content.
+- Create skills content.
+- Create project content.
+- Prepare bilingual content.
 
 ### Expected Outcome
 
@@ -181,12 +181,12 @@ Strengthen the portfolio's Full Stack positioning.
 
 ### Scope
 
-* Select representative projects.
-* Define project presentation model.
-* Highlight technical capabilities.
-* Demonstrate development practices.
-* Showcase problem-solving approaches.
-* Reinforce the Full Stack narrative.
+- Select representative projects.
+- Define project presentation model.
+- Highlight technical capabilities.
+- Demonstrate development practices.
+- Showcase problem-solving approaches.
+- Reinforce the Full Stack narrative.
 
 ### Expected Outcome
 
@@ -204,10 +204,10 @@ Provide a consistent multilingual experience.
 
 ### Scope
 
-* Implement language switching.
-* Support English content.
-* Support Spanish content.
-* Maintain content consistency across languages.
+- Implement language switching.
+- Support English content.
+- Support Spanish content.
+- Maintain content consistency across languages.
 
 ### Expected Outcome
 
@@ -225,12 +225,12 @@ Prepare the project for public release.
 
 ### Scope
 
-* Production validation.
-* Accessibility review.
-* Performance review.
-* Cross-device testing.
-* Deployment verification.
-* Final content review.
+- Production validation.
+- Accessibility review.
+- Performance review.
+- Cross-device testing.
+- Deployment verification.
+- Final content review.
 
 ### Expected Outcome
 
@@ -248,10 +248,10 @@ Establish a professional custom domain.
 
 ### Scope
 
-* Acquire domain.
-* Configure DNS.
-* Connect domain to deployment platform.
-* Validate production environment.
+- Acquire domain.
+- Configure DNS.
+- Connect domain to deployment platform.
+- Validate production environment.
 
 ### Expected Outcome
 
@@ -269,10 +269,10 @@ Gain insight into portfolio usage and visitor behavior.
 
 ### Scope
 
-* Evaluate analytics providers.
-* Define privacy considerations.
-* Configure analytics integration.
-* Establish reporting strategy.
+- Evaluate analytics providers.
+- Define privacy considerations.
+- Configure analytics integration.
+- Establish reporting strategy.
 
 ### Expected Outcome
 
@@ -290,10 +290,10 @@ Provide an alternative visual experience.
 
 ### Scope
 
-* Define dark theme guidelines.
-* Implement theme switching.
-* Validate accessibility.
-* Ensure visual consistency.
+- Define dark theme guidelines.
+- Implement theme switching.
+- Validate accessibility.
+- Ensure visual consistency.
 
 ### Expected Outcome
 
@@ -311,10 +311,10 @@ Provide easy access to professional resume versions.
 
 ### Scope
 
-* Create downloadable resume assets.
-* Support bilingual resume versions.
-* Integrate resume access into the portfolio.
-* Maintain version consistency.
+- Create downloadable resume assets.
+- Support bilingual resume versions.
+- Integrate resume access into the portfolio.
+- Maintain version consistency.
 
 ### Expected Outcome
 
@@ -332,11 +332,11 @@ Expand selected projects into detailed case studies.
 
 ### Scope
 
-* Document project challenges.
-* Document architectural decisions.
-* Document implementation strategies.
-* Present development outcomes.
-* Evaluate dedicated project routes.
+- Document project challenges.
+- Document architectural decisions.
+- Document implementation strategies.
+- Present development outcomes.
+- Evaluate dedicated project routes.
 
 ### Expected Outcome
 
@@ -354,10 +354,10 @@ Evaluate alternatives for direct visitor communication.
 
 ### Scope
 
-* Evaluate contact form solutions.
-* Review infrastructure requirements.
-* Review privacy considerations.
-* Review maintenance implications.
+- Evaluate contact form solutions.
+- Review infrastructure requirements.
+- Review privacy considerations.
+- Review maintenance implications.
 
 ### Expected Outcome
 
@@ -369,12 +369,12 @@ An additional communication channel if justified by project needs.
 
 The following initiatives are currently outside the project's planned direction:
 
-* Blog platform.
-* Public documentation portal.
-* Content publishing platform.
-* CMS integration.
-* User accounts.
-* Administrative dashboard.
+- Blog platform.
+- Public documentation portal.
+- Content publishing platform.
+- CMS integration.
+- User accounts.
+- Administrative dashboard.
 
 These areas may be reconsidered in the future if project goals change.
 

@@ -12,12 +12,12 @@ Unlike reusable reference documents such as `rules.md` and `structure.md`, this 
 
 ## Objectives
 
-* Provide a clear understanding of the portfolio architecture.
-* Document the application's logical organization.
-* Define the responsibilities of the main architectural areas.
-* Facilitate maintenance and future evolution.
-* Serve as a reference for architectural decisions.
-* Maintain an up-to-date representation of the implemented architecture.
+- Provide a clear understanding of the portfolio architecture.
+- Document the application's logical organization.
+- Define the responsibilities of the main architectural areas.
+- Facilitate maintenance and future evolution.
+- Serve as a reference for architectural decisions.
+- Maintain an up-to-date representation of the implemented architecture.
 
 ---
 
@@ -37,11 +37,11 @@ Project documentation supports development and maintenance activities but is not
 
 The project currently adopts:
 
-* Single Page Application (SPA)
-* Client-Side Rendering (CSR)
-* Component-Based Architecture
-* Route-Based Navigation
-* Documentation-Driven Development
+- Single Page Application (SPA)
+- Client-Side Rendering (CSR)
+- Component-Based Architecture
+- Route-Based Navigation
+- Documentation-Driven Development
 
 ---
 
@@ -130,9 +130,9 @@ This approach provides a structured browsing experience while supporting future 
 
 Current integrations include:
 
-* GitHub
-* LinkedIn
-* Email
+- GitHub
+- LinkedIn
+- Email
 
 Additional integrations may be incorporated as the project evolves.
 
@@ -142,10 +142,10 @@ Additional integrations may be incorporated as the project evolves.
 
 The architecture depends on the following relationships:
 
-* Navigation depends on the route structure.
-* Portfolio routes depend on their corresponding content sources.
-* Project presentation depends on project metadata.
-* Contact channels depend on external platforms.
+- Navigation depends on the route structure.
+- Portfolio routes depend on their corresponding content sources.
+- Project presentation depends on project metadata.
+- Contact channels depend on external platforms.
 
 ---
 
@@ -153,13 +153,13 @@ The architecture depends on the following relationships:
 
 The architecture prioritizes:
 
-* Reusable components.
-* Clear separation of responsibilities.
-* Consistent information presentation.
-* Responsive user experience.
-* Long-term maintainability.
-* Scalable content organization.
-* Documentation-driven development.
+- Reusable components.
+- Clear separation of responsibilities.
+- Consistent information presentation.
+- Responsive user experience.
+- Long-term maintainability.
+- Scalable content organization.
+- Documentation-driven development.
 
 ---
 

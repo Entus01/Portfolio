@@ -12,12 +12,12 @@ Unlike the architecture document, which describes the current implementation, th
 
 ## Objectives
 
-* Document significant project decisions.
-* Preserve decision rationale.
-* Improve long-term maintainability.
-* Facilitate future decision making.
-* Reduce repeated discussions about previously resolved topics.
-* Provide historical context for project evolution.
+- Document significant project decisions.
+- Preserve decision rationale.
+- Improve long-term maintainability.
+- Facilitate future decision making.
+- Reduce repeated discussions about previously resolved topics.
+- Provide historical context for project evolution.
 
 ---
 
@@ -25,12 +25,12 @@ Unlike the architecture document, which describes the current implementation, th
 
 Update this document when:
 
-* A significant architectural decision is made.
-* A major technology is adopted or removed.
-* A new development strategy is introduced.
-* A decision affects multiple areas of the project.
-* A long-term direction is established or modified.
-* An important project constraint is introduced.
+- A significant architectural decision is made.
+- A major technology is adopted or removed.
+- A new development strategy is introduced.
+- A decision affects multiple areas of the project.
+- A long-term direction is established or modified.
+- An important project constraint is introduced.
 
 ---
 
@@ -38,12 +38,12 @@ Update this document when:
 
 It is not necessary to update this document for:
 
-* Minor implementation choices.
-* Routine development activities.
-* Small refactors.
-* Temporary experiments.
-* Visual adjustments.
-* Day-to-day coding decisions.
+- Minor implementation choices.
+- Routine development activities.
+- Small refactors.
+- Temporary experiments.
+- Visual adjustments.
+- Day-to-day coding decisions.
 
 ---
 
@@ -51,12 +51,12 @@ It is not necessary to update this document for:
 
 Each decision should include:
 
-* Identifier.
-* Title.
-* Status.
-* Context.
-* Decision.
-* Consequences.
+- Identifier.
+- Title.
+- Status.
+- Context.
+- Decision.
+- Consequences.
 
 ---
 
@@ -78,10 +78,10 @@ The portfolio will present a Full Stack Developer profile.
 
 ### Consequences
 
-* Projects should support a Full Stack narrative.
-* Content should demonstrate both frontend and backend capabilities.
-* Technical decisions should reinforce this positioning.
-* Portfolio growth should remain aligned with this professional identity.
+- Projects should support a Full Stack narrative.
+- Content should demonstrate both frontend and backend capabilities.
+- Technical decisions should reinforce this positioning.
+- Portfolio growth should remain aligned with this professional identity.
 
 ---
 
@@ -99,9 +99,9 @@ The portfolio will maintain a balanced approach between presentation, technical 
 
 ### Consequences
 
-* Technical depth should remain accessible.
-* Visual design should support content rather than dominate it.
-* Portfolio sections should remain focused and purposeful.
+- Technical depth should remain accessible.
+- Visual design should support content rather than dominate it.
+- Portfolio sections should remain focused and purposeful.
 
 ---
 
@@ -119,10 +119,10 @@ Documentation will support development, maintenance, and project evolution but w
 
 ### Consequences
 
-* Documentation remains internal to the repository.
-* Portfolio visitors interact with portfolio content rather than project documentation.
-* Architectural and organizational decisions remain documented without becoming portfolio features.
-* Documentation does not require dedicated public routes.
+- Documentation remains internal to the repository.
+- Portfolio visitors interact with portfolio content rather than project documentation.
+- Architectural and organizational decisions remain documented without becoming portfolio features.
+- Documentation does not require dedicated public routes.
 
 ---
 
@@ -140,9 +140,9 @@ User experience decisions should consider both presentation quality and long-ter
 
 ### Consequences
 
-* Avoid unnecessary complexity.
-* Prioritize clarity over visual excess.
-* Maintain accessibility and responsiveness.
+- Avoid unnecessary complexity.
+- Prioritize clarity over visual excess.
+- Maintain accessibility and responsiveness.
 
 ---
 
@@ -160,10 +160,10 @@ Content should be managed through centralized data sources whenever possible.
 
 ### Consequences
 
-* Reduced duplication.
-* Improved consistency.
-* Easier maintenance and updates.
-* Better scalability as the portfolio grows.
+- Reduced duplication.
+- Improved consistency.
+- Easier maintenance and updates.
+- Better scalability as the portfolio grows.
 
 ---
 
@@ -181,9 +181,9 @@ Developer philosophy will be treated as a first-class element of the portfolio n
 
 ### Consequences
 
-* Content should reflect development values.
-* Technical decisions should remain visible through project presentation.
-* Portfolio messaging should emphasize software craftsmanship.
+- Content should reflect development values.
+- Technical decisions should remain visible through project presentation.
+- Portfolio messaging should emphasize software craftsmanship.
 
 ---
 
@@ -201,9 +201,9 @@ Projects should be selected based on their ability to reinforce the Full Stack D
 
 ### Consequences
 
-* Project selection becomes intentional.
-* Technical depth is prioritized over project quantity.
-* Selected projects may evolve into dedicated case studies when they provide additional value to the portfolio narrative.
+- Project selection becomes intentional.
+- Technical depth is prioritized over project quantity.
+- Selected projects may evolve into dedicated case studies when they provide additional value to the portfolio narrative.
 
 ---
 
@@ -221,9 +221,9 @@ Documentation will remain focused exclusively on the portfolio.
 
 ### Consequences
 
-* Documentation scope remains controlled.
-* Project documents remain focused and maintainable.
-* Documentation growth remains aligned with portfolio needs.
+- Documentation scope remains controlled.
+- Project documents remain focused and maintainable.
+- Documentation growth remains aligned with portfolio needs.
 
 ---
 
@@ -241,9 +241,9 @@ The visual and conceptual identity will be inspired by qualities commonly associ
 
 ### Consequences
 
-* Design decisions may emphasize curiosity, precision, elegance, and attention to detail.
-* Personality should complement professionalism.
-* Visual identity should remain subtle and intentional.
+- Design decisions may emphasize curiosity, precision, elegance, and attention to detail.
+- Personality should complement professionalism.
+- Visual identity should remain subtle and intentional.
 
 ---
 
@@ -261,9 +261,9 @@ The portfolio will support both English and Spanish content.
 
 ### Consequences
 
-* Content must remain consistent across languages.
-* Language switching becomes part of the user experience.
-* Future content additions should consider both languages.
+- Content must remain consistent across languages.
+- Language switching becomes part of the user experience.
+- Future content additions should consider both languages.
 
 ---
 
@@ -281,11 +281,11 @@ The portfolio will use route-based navigation as its primary navigation strategy
 
 ### Consequences
 
-* Portfolio content is organized through dedicated routes.
-* Visitors can access content directly through URLs.
-* Navigation becomes more structured and predictable.
-* Future project case studies can be implemented naturally through additional routes.
-* The portfolio avoids dependence on long scrolling experiences.
+- Portfolio content is organized through dedicated routes.
+- Visitors can access content directly through URLs.
+- Navigation becomes more structured and predictable.
+- Future project case studies can be implemented naturally through additional routes.
+- The portfolio avoids dependence on long scrolling experiences.
 
 ### Initial Route Structure
 

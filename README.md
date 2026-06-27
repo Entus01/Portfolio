@@ -12,12 +12,12 @@ Its purpose is to communicate not only what has been built, but also the princip
 
 ## Objectives
 
-* Showcase Full Stack development skills and experience.
-* Present selected projects through a consistent professional narrative.
-* Demonstrate software development practices and technical thinking.
-* Reflect professional standards for organization and maintainability.
-* Provide a centralized reference for professional information and projects.
-* Maintain a scalable foundation for future portfolio growth.
+- Showcase Full Stack development skills and experience.
+- Present selected projects through a consistent professional narrative.
+- Demonstrate software development practices and technical thinking.
+- Reflect professional standards for organization and maintainability.
+- Provide a centralized reference for professional information and projects.
+- Maintain a scalable foundation for future portfolio growth.
 
 ---
 
@@ -39,12 +39,12 @@ The portfolio is built around the idea that software should be developed on top 
 
 Special attention is given to:
 
-* Clear organization.
-* Well-defined responsibilities.
-* Consistent user experience.
-* Scalable architecture.
-* Maintainable code.
-* Long-term sustainability.
+- Clear organization.
+- Well-defined responsibilities.
+- Consistent user experience.
+- Scalable architecture.
+- Maintainable code.
+- Long-term sustainability.
 
 The portfolio is intended to represent both technical execution and the development mindset behind it.
 
@@ -72,12 +72,12 @@ The README acts as the primary entry point and directs readers toward the approp
 
 ## Main Technologies
 
-* React
-* React Router
-* Vite
-* Git
-* GitHub
-* Vercel
+- React
+- React Router
+- Vite
+- Git
+- GitHub
+- Vercel
 
 Only technologies with architectural or operational relevance are listed. Foundational technologies implicitly included by the selected stack are intentionally omitted.
 
@@ -87,12 +87,12 @@ Only technologies with architectural or operational relevance are listed. Founda
 
 The project is guided by the following principles:
 
-* Maintainability.
-* Clear separation of responsibilities.
-* Reusability through composition.
-* Single source of truth.
-* Documentation-driven development.
-* Long-term sustainability.
+- Maintainability.
+- Clear separation of responsibilities.
+- Reusability through composition.
+- Single source of truth.
+- Documentation-driven development.
+- Long-term sustainability.
 
 Additional standards, conventions, and development rules are documented in `docs/rules.md`.
 

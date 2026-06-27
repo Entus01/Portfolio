@@ -12,12 +12,12 @@ When a technical, organizational, architectural, or project-specific concept req
 
 ## Objectives
 
-* Provide a single source of truth for project terminology.
-* Reduce ambiguity across documentation.
-* Facilitate onboarding and future collaboration.
-* Maintain consistency throughout the repository.
-* Clarify project-specific interpretations of concepts.
-* Support the long-term maintainability of the documentation.
+- Provide a single source of truth for project terminology.
+- Reduce ambiguity across documentation.
+- Facilitate onboarding and future collaboration.
+- Maintain consistency throughout the repository.
+- Clarify project-specific interpretations of concepts.
+- Support the long-term maintainability of the documentation.
 
 ---
 
@@ -25,12 +25,12 @@ When a technical, organizational, architectural, or project-specific concept req
 
 Update this document when:
 
-* New terminology is introduced.
-* Frequently used concepts appear across multiple documents.
-* Existing definitions require clarification.
-* New architectural patterns are adopted.
-* New development practices become part of the project.
-* A concept requires a project-specific interpretation.
+- New terminology is introduced.
+- Frequently used concepts appear across multiple documents.
+- Existing definitions require clarification.
+- New architectural patterns are adopted.
+- New development practices become part of the project.
+- A concept requires a project-specific interpretation.
 
 ---
 
@@ -38,13 +38,13 @@ Update this document when:
 
 It is not necessary to record:
 
-* Obvious or universally known definitions.
-* Implementation-specific details.
-* Development rules or conventions.
-* Technical decisions.
-* Temporary information.
-* Version-dependent information.
-* Technology documentation.
+- Obvious or universally known definitions.
+- Implementation-specific details.
+- Development rules or conventions.
+- Technical decisions.
+- Temporary information.
+- Version-dependent information.
+- Technology documentation.
 
 ---
 
@@ -52,12 +52,12 @@ It is not necessary to record:
 
 Glossary entries should follow these principles:
 
-* Keep definitions concise and easy to understand.
-* Use consistent terminology across all project documents.
-* Avoid circular definitions.
-* Include examples only when they improve clarity.
-* Focus on meaning rather than implementation.
-* Update existing entries instead of creating duplicates.
+- Keep definitions concise and easy to understand.
+- Use consistent terminology across all project documents.
+- Avoid circular definitions.
+- Include examples only when they improve clarity.
+- Focus on meaning rather than implementation.
+- Update existing entries instead of creating duplicates.
 
 ---
 

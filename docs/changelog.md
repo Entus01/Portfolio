@@ -12,12 +12,12 @@ This document complements the Git history by highlighting changes that have a me
 
 ## Objectives
 
-* Document the significant evolution of the portfolio.
-* Provide historical context for important changes.
-* Summarize project releases without duplicating Git history.
-* Improve traceability across portfolio versions.
-* Record architectural, functional, and organizational milestones.
-* Maintain a concise and readable history of project progress.
+- Document the significant evolution of the portfolio.
+- Provide historical context for important changes.
+- Summarize project releases without duplicating Git history.
+- Improve traceability across portfolio versions.
+- Record architectural, functional, and organizational milestones.
+- Maintain a concise and readable history of project progress.
 
 ---
 
@@ -25,16 +25,16 @@ This document complements the Git history by highlighting changes that have a me
 
 Update this document when there are relevant changes related to:
 
-* New portfolio routes.
-* New project showcase capabilities.
-* Architectural changes.
-* Major application reorganizations.
-* Information architecture changes.
-* Addition or removal of technologies.
-* Deployment process changes.
-* Changes affecting user experience.
-* Significant documentation milestones.
-* Publication of a new project version.
+- New portfolio routes.
+- New project showcase capabilities.
+- Architectural changes.
+- Major application reorganizations.
+- Information architecture changes.
+- Addition or removal of technologies.
+- Deployment process changes.
+- Changes affecting user experience.
+- Significant documentation milestones.
+- Publication of a new project version.
 
 ---
 
@@ -42,14 +42,14 @@ Update this document when there are relevant changes related to:
 
 It is not necessary to update this document for:
 
-* Routine commits.
-* Minor bug fixes.
-* Small visual adjustments.
-* Minor refactors.
-* Writing corrections.
-* Small content updates.
-* Internal changes with no visible impact.
-* Trivial dependency updates.
+- Routine commits.
+- Minor bug fixes.
+- Small visual adjustments.
+- Minor refactors.
+- Writing corrections.
+- Small content updates.
+- Internal changes with no visible impact.
+- Trivial dependency updates.
 
 ---
 
@@ -61,41 +61,41 @@ The changelog should answer, at minimum, the following questions.
 
 Examples:
 
-* 1.0.0
-* 1.1.0
-* 2.0.0
+- 1.0.0
+- 1.1.0
+- 2.0.0
 
 ### When was the version released?
 
 Examples:
 
-* 2026-06-20
+- 2026-06-20
 
 ### What functionality was added?
 
 Examples:
 
-* New routes.
-* New portfolio sections.
-* New project showcases.
-* New integrations.
+- New routes.
+- New portfolio sections.
+- New project showcases.
+- New integrations.
 
 ### What functionality changed?
 
 Examples:
 
-* Navigation improvements.
-* Information architecture updates.
-* Layout reorganizations.
-* Architectural refinements.
+- Navigation improvements.
+- Information architecture updates.
+- Layout reorganizations.
+- Architectural refinements.
 
 ### What was removed or fixed?
 
 Examples:
 
-* Deprecated sections.
-* Obsolete functionality.
-* Important bug fixes.
+- Deprecated sections.
+- Obsolete functionality.
+- Important bug fixes.
 
 ---
 
@@ -135,29 +135,29 @@ The changelog should summarize relevant project evolution while keeping entries 
 
 ### Added
 
-* Initial project documentation.
-* Architectural documentation.
-* Deployment documentation.
-* Project glossary.
-* Project roadmap.
-* Technical decision log.
-* React Router integration.
-* Route-based portfolio structure.
+- Initial project documentation.
+- Architectural documentation.
+- Deployment documentation.
+- Project glossary.
+- Project roadmap.
+- Technical decision log.
+- React Router integration.
+- Route-based portfolio structure.
 
 ### Changed
 
-* Defined Full Stack professional positioning.
-* Established documentation-driven development workflow.
-* Adopted centralized content strategy.
-* Adopted bilingual portfolio strategy.
+- Defined Full Stack professional positioning.
+- Established documentation-driven development workflow.
+- Adopted centralized content strategy.
+- Adopted bilingual portfolio strategy.
 
 ### Removed
 
-* Public documentation section from the portfolio architecture.
+- Public documentation section from the portfolio architecture.
 
 ### Fixed
 
-* Aligned architecture, roadmap, and project decisions.
+- Aligned architecture, roadmap, and project decisions.
 
 ### Notes
 
@@ -190,10 +190,10 @@ Represents significant architectural changes or major portfolio restructurings.
 
 Examples:
 
-* Complete portfolio redesign.
-* Major navigation changes.
-* Fundamental architecture changes.
-* Significant information architecture changes.
+- Complete portfolio redesign.
+- Major navigation changes.
+- Fundamental architecture changes.
+- Significant information architecture changes.
 
 ### MINOR
 
@@ -201,10 +201,10 @@ Represents new functionality that remains compatible with previous versions.
 
 Examples:
 
-* New portfolio routes.
-* New project showcases.
-* New integrations.
-* New content areas.
+- New portfolio routes.
+- New project showcases.
+- New integrations.
+- New content areas.
 
 ### PATCH
 
@@ -212,10 +212,10 @@ Represents fixes and improvements that do not introduce new functionality.
 
 Examples:
 
-* Bug fixes.
-* Content improvements.
-* Visual refinements.
-* Accessibility improvements.
+- Bug fixes.
+- Content improvements.
+- Visual refinements.
+- Accessibility improvements.
 
 ---
 

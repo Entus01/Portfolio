@@ -22,12 +22,12 @@ It is not intended to define a universal architecture, but rather to document th
 
 # Objectives
 
-* Maintain a recognizable structure across projects.
-* Facilitate repository navigation.
-* Centralize responsibilities by location.
-* Reduce unnecessary exploration.
-* Improve onboarding for new collaborators.
-* Support long-term scalability without frequent reorganizations.
+- Maintain a recognizable structure across projects.
+- Facilitate repository navigation.
+- Centralize responsibilities by location.
+- Reduce unnecessary exploration.
+- Improve onboarding for new collaborators.
+- Support long-term scalability without frequent reorganizations.
 
 ---
 
@@ -45,12 +45,12 @@ It is recommended to start with a simple organization and evolve it progressivel
 
 Update this document when there are relevant changes related to:
 
-* Project organization conventions.
-* Recommended folder structures.
-* Responsibility allocation between directories.
-* Configuration file placement.
-* Documentation organization standards.
-* New reference structures for frontend, backend, or fullstack projects.
+- Project organization conventions.
+- Recommended folder structures.
+- Responsibility allocation between directories.
+- Configuration file placement.
+- Documentation organization standards.
+- New reference structures for frontend, backend, or fullstack projects.
 
 ---
 
@@ -58,11 +58,11 @@ Update this document when there are relevant changes related to:
 
 It is not necessary to update this document for:
 
-* Project-specific architectural decisions.
-* Minor repository reorganizations.
-* Temporary folders or experimental structures.
-* Technology-specific implementation details.
-* Functional changes unrelated to project organization.
+- Project-specific architectural decisions.
+- Minor repository reorganizations.
+- Temporary folders or experimental structures.
+- Technology-specific implementation details.
+- Functional changes unrelated to project organization.
 
 ---
 
@@ -452,12 +452,12 @@ The structure should evolve alongside the project.
 
 Principles:
 
-* Grow according to real needs.
-* Maintain organizational coherence.
-* Avoid unnecessary complexity.
-* Prioritize clarity over anticipation.
-* Favor long-term maintainability.
-* Avoid creating folders or levels of organization that do not yet have a real responsibility.
+- Grow according to real needs.
+- Maintain organizational coherence.
+- Avoid unnecessary complexity.
+- Prioritize clarity over anticipation.
+- Favor long-term maintainability.
+- Avoid creating folders or levels of organization that do not yet have a real responsibility.
 
 ## Root Organization Principle
 
@@ -519,10 +519,10 @@ Project organization should facilitate development, not impose unnecessary compl
 
 A well-structured repository should allow any developer to:
 
-* Quickly understand the structure.
-* Locate functionality easily.
-* Join the project with minimal friction.
-* Maintain the code without relying on implicit knowledge.
-* Scale the system without frequent reorganizations.
+- Quickly understand the structure.
+- Locate functionality easily.
+- Join the project with minimal friction.
+- Maintain the code without relying on implicit knowledge.
+- Scale the system without frequent reorganizations.
 
 Organization-related conventions belong in this document, while architectural, operational, and strategic decisions should be maintained in their respective reference documents.

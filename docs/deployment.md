@@ -12,12 +12,12 @@ Unlike reusable deployment templates, this document reflects the actual operatio
 
 ## Objectives
 
-* Document the current deployment workflow.
-* Facilitate publishing new versions.
-* Reduce operational errors.
-* Centralize build and environment information.
-* Facilitate onboarding of future collaborators.
-* Serve as a reference for maintenance tasks.
+- Document the current deployment workflow.
+- Facilitate publishing new versions.
+- Reduce operational errors.
+- Centralize build and environment information.
+- Facilitate onboarding of future collaborators.
+- Serve as a reference for maintenance tasks.
 
 ---
 
@@ -25,14 +25,14 @@ Unlike reusable deployment templates, this document reflects the actual operatio
 
 Update this document when there are relevant changes related to:
 
-* Deployment platforms.
-* Build processes.
-* Required environment variables.
-* Publishing automations.
-* Infrastructure configuration.
-* External services used during deployment.
-* Domain configuration.
-* Release strategies.
+- Deployment platforms.
+- Build processes.
+- Required environment variables.
+- Publishing automations.
+- Infrastructure configuration.
+- External services used during deployment.
+- Domain configuration.
+- Release strategies.
 
 ---
 
@@ -40,12 +40,12 @@ Update this document when there are relevant changes related to:
 
 It is not necessary to update this document for:
 
-* Functional changes.
-* Content updates.
-* Visual adjustments.
-* Internal refactors.
-* Routine documentation updates.
-* Changes that do not affect build or deployment.
+- Functional changes.
+- Content updates.
+- Visual adjustments.
+- Internal refactors.
+- Routine documentation updates.
+- Changes that do not affect build or deployment.
 
 ---
 
@@ -176,10 +176,10 @@ Vercel
 
 Vercel is responsible for:
 
-* Build execution.
-* Static asset delivery.
-* Production hosting.
-* Automated deployment workflow.
+- Build execution.
+- Static asset delivery.
+- Production hosting.
+- Automated deployment workflow.
 
 ---
 
@@ -305,11 +305,11 @@ docs/decisions.md
 
 This document must never include:
 
-* Credentials.
-* Tokens.
-* Secrets.
-* Private keys.
-* Sensitive configuration values.
+- Credentials.
+- Tokens.
+- Secrets.
+- Private keys.
+- Sensitive configuration values.
 
 Operational information should always use descriptive placeholders instead of exposing real values.
 
