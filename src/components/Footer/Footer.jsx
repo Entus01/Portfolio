@@ -1,5 +1,4 @@
-import { MdOutlineEmail } from "react-icons/md";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import SocialLinks from "../SocialLinks/SocialLinks.jsx";
 import { profile } from "../../content/profile.js";
 import "./Footer.css";
 
@@ -19,33 +18,7 @@ export default function Footer() {
       </section>
 
       <section className="footer__section footer__section--right">
-        <a
-          className="footer__social-link"
-          href={`mailto:${profile.email}`}
-          aria-label="Send email to Miguel Barrera"
-        >
-          <MdOutlineEmail />
-        </a>
-
-        <a
-          className="footer__social-link"
-          href={profile.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Visit Miguel Barrera's GitHub profile"
-        >
-          <FaGithub />
-        </a>
-
-        <a
-          className="footer__social-link"
-          href={profile.linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Visit Miguel Barrera's LinkedIn profile"
-        >
-          <FaLinkedin />
-        </a>
+        <SocialLinks variant="icons" />
       </section>
     </footer>
   );
