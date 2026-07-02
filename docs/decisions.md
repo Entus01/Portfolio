@@ -51,12 +51,12 @@ It is not necessary to update this document for:
 
 Each decision should include:
 
-- Identifier.
-- Title.
-- Status.
-- Context.
-- Decision.
-- Consequences.
+- Identifier
+- Title
+- Status
+- Context
+- Decision
+- Consequences
 
 ---
 
@@ -64,7 +64,7 @@ Each decision should include:
 
 ---
 
-## DEC-001 — Position the Portfolio as Full Stack Developer
+## DEC-001 — Position the Portfolio as a Full Stack Developer
 
 **Status:** Accepted
 
@@ -74,18 +74,17 @@ The portfolio requires a clear professional identity that guides project selecti
 
 ### Decision
 
-The portfolio will present a Full Stack Developer profile.
+The portfolio presents a Full Stack Developer profile.
 
 ### Consequences
 
-- Projects should support a Full Stack narrative.
-- Content should demonstrate both frontend and backend capabilities.
-- Technical decisions should reinforce this positioning.
-- Portfolio growth should remain aligned with this professional identity.
+- Projects reinforce both frontend and backend capabilities.
+- Technical decisions support this positioning.
+- Portfolio growth remains aligned with this professional identity.
 
 ---
 
-## DEC-002 — Adopt a Balanced Portfolio Structure
+## DEC-002 — Maintain a Balanced Portfolio Structure
 
 **Status:** Accepted
 
@@ -95,99 +94,98 @@ A portfolio can overemphasize either visual presentation or technical depth.
 
 ### Decision
 
-The portfolio will maintain a balanced approach between presentation, technical content, and professional communication.
+The portfolio balances presentation, technical content, and professional communication.
 
 ### Consequences
 
-- Technical depth should remain accessible.
-- Visual design should support content rather than dominate it.
-- Portfolio sections should remain focused and purposeful.
+- Technical depth remains accessible.
+- Visual design supports content rather than dominates it.
+- Portfolio sections remain focused and purposeful.
 
 ---
 
-## DEC-003 — Keep Documentation as an Internal Development Asset
+## DEC-003 — Keep Documentation Internal
 
 **Status:** Accepted
 
 ### Context
 
-Project documentation is important for maintainability but does not directly contribute to the portfolio's public value proposition.
+Documentation improves maintainability but is not part of the portfolio's public experience.
 
 ### Decision
 
-Documentation will support development, maintenance, and project evolution but will not be exposed as a public portfolio feature.
+Project documentation remains internal to the repository.
 
 ### Consequences
 
-- Documentation remains internal to the repository.
-- Portfolio visitors interact with portfolio content rather than project documentation.
-- Architectural and organizational decisions remain documented without becoming portfolio features.
-- Documentation does not require dedicated public routes.
+- Documentation supports development.
+- Visitors interact only with portfolio content.
+- Architectural information remains available without becoming part of the public interface.
 
 ---
 
-## DEC-004 — Prioritize a Balanced User Experience
+## DEC-004 — Prioritize Long-Term User Experience
 
 **Status:** Accepted
 
 ### Context
 
-The portfolio should balance aesthetics, usability, performance, and maintainability.
+The portfolio should remain pleasant to use while remaining maintainable over time.
 
 ### Decision
 
-User experience decisions should consider both presentation quality and long-term sustainability.
+User experience decisions balance aesthetics, usability, accessibility, performance, and maintainability.
 
 ### Consequences
 
 - Avoid unnecessary complexity.
-- Prioritize clarity over visual excess.
-- Maintain accessibility and responsiveness.
+- Prioritize clarity.
+- Preserve accessibility and responsiveness.
 
 ---
 
-## DEC-005 — Adopt a Centralized Data Strategy
+## DEC-005 — Centralize Portfolio Content
 
 **Status:** Accepted
 
 ### Context
 
-Portfolio information may be reused across multiple views and components.
+The same information is reused across multiple pages and components.
 
 ### Decision
 
-Content should be managed through centralized data sources whenever possible.
+Portfolio content is managed through dedicated content modules.
 
 ### Consequences
 
 - Reduced duplication.
-- Improved consistency.
-- Easier maintenance and updates.
-- Better scalability as the portfolio grows.
+- Consistent information.
+- Easier maintenance.
+- Better scalability.
 
 ---
 
-## DEC-006 — Developer Philosophy First
+## DEC-006 — Communicate Developer Philosophy
 
 **Status:** Accepted
 
 ### Context
 
-The portfolio should communicate not only technical output but also the principles behind development decisions.
+The portfolio should communicate not only technical capabilities but also the thinking behind them.
 
 ### Decision
 
-Developer philosophy will be treated as a first-class element of the portfolio narrative.
+Developer philosophy becomes a primary element of the portfolio narrative.
 
 ### Consequences
 
-- Content should reflect development values.
-- Technical decisions should remain visible through project presentation.
-- Portfolio messaging should emphasize software craftsmanship.
+- Pages communicate principles rather than only facts.
+- Projects demonstrate engineering decisions.
+- The portfolio reflects software craftsmanship.
 
 ---
 
-## DEC-007 — Select Projects that Support the Full Stack Narrative
+## DEC-007 — Curate Projects Intentionally
 
 **Status:** Accepted
 
@@ -197,33 +195,33 @@ Not every project contributes equally to the desired professional positioning.
 
 ### Decision
 
-Projects should be selected based on their ability to reinforce the Full Stack Developer narrative.
+Projects are selected according to their ability to reinforce the Full Stack narrative.
 
 ### Consequences
 
-- Project selection becomes intentional.
-- Technical depth is prioritized over project quantity.
-- Selected projects may evolve into dedicated case studies when they provide additional value to the portfolio narrative.
+- Quality is prioritized over quantity.
+- Projects may evolve into case studies.
+- Every showcased project supports the portfolio story.
 
 ---
 
-## DEC-008 — Maintain Documentation Exclusively for the Portfolio
+## DEC-008 — Keep Documentation Portfolio-Specific
 
 **Status:** Accepted
 
 ### Context
 
-The documentation system exists to support this project and should not attempt to become a generalized documentation platform.
+Documentation exists to support this repository.
 
 ### Decision
 
-Documentation will remain focused exclusively on the portfolio.
+Documentation remains focused exclusively on the Portfolio project.
 
 ### Consequences
 
 - Documentation scope remains controlled.
-- Project documents remain focused and maintainable.
-- Documentation growth remains aligned with portfolio needs.
+- Documents remain concise.
+- Maintenance stays manageable.
 
 ---
 
@@ -233,17 +231,20 @@ Documentation will remain focused exclusively on the portfolio.
 
 ### Context
 
-The portfolio should communicate a recognizable personality while maintaining professional credibility.
+The portfolio should communicate a recognizable personality while remaining professional.
 
 ### Decision
 
-The visual and conceptual identity will be inspired by qualities commonly associated with cats.
+The visual identity is subtly inspired by qualities associated with cats.
 
 ### Consequences
 
-- Design decisions may emphasize curiosity, precision, elegance, and attention to detail.
-- Personality should complement professionalism.
-- Visual identity should remain subtle and intentional.
+- Curiosity.
+- Precision.
+- Elegance.
+- Attention to detail.
+
+These qualities influence design decisions without becoming the project's central theme.
 
 ---
 
@@ -253,17 +254,17 @@ The visual and conceptual identity will be inspired by qualities commonly associ
 
 ### Context
 
-The portfolio is intended to reach both Spanish-speaking and English-speaking audiences.
+The portfolio targets both English-speaking and Spanish-speaking audiences.
 
 ### Decision
 
-The portfolio will support both English and Spanish content.
+The portfolio supports bilingual content.
 
 ### Consequences
 
-- Content must remain consistent across languages.
-- Language switching becomes part of the user experience.
-- Future content additions should consider both languages.
+- Content remains consistent across languages.
+- Language becomes part of the overall user experience.
+- Future additions consider both languages.
 
 ---
 
@@ -273,30 +274,118 @@ The portfolio will support both English and Spanish content.
 
 ### Context
 
-The portfolio requires a navigation model that supports scalability, direct access to content, and future growth opportunities.
+The portfolio requires scalable navigation and direct access to content.
 
 ### Decision
 
-The portfolio will use route-based navigation as its primary navigation strategy.
+Navigation is implemented through dedicated application routes.
 
 ### Consequences
 
-- Portfolio content is organized through dedicated routes.
-- Visitors can access content directly through URLs.
-- Navigation becomes more structured and predictable.
-- Future project case studies can be implemented naturally through additional routes.
-- The portfolio avoids dependence on long scrolling experiences.
+- Direct URLs for every section.
+- Scalable navigation.
+- Future project pages can be added naturally.
 
-### Initial Route Structure
+### Current Routes
 
 ```text
 /
 /about
 /skills
-/experience
 /projects
 /contact
 ```
+
+---
+
+## DEC-012 — Separate Content from Presentation
+
+**Status:** Accepted
+
+### Context
+
+Portfolio information should remain independent from user interface implementation.
+
+### Decision
+
+Content modules provide data while components focus on presentation.
+
+### Consequences
+
+- Cleaner components.
+- Better separation of concerns.
+- Easier updates.
+- Greater reusability.
+
+---
+
+## DEC-013 — Prefer Reusable Components
+
+**Status:** Accepted
+
+### Context
+
+Repeated interface patterns increase maintenance effort.
+
+### Decision
+
+Shared functionality should be extracted into reusable components whenever appropriate.
+
+### Consequences
+
+- Less duplicated code.
+- Better consistency.
+- Easier long-term maintenance.
+
+---
+
+## DEC-014 — Build a Progressive Narrative
+
+**Status:** Accepted
+
+### Context
+
+The portfolio should communicate a coherent professional story rather than isolated information.
+
+### Decision
+
+Each page contributes a distinct step in the visitor's journey.
+
+### Consequences
+
+```text
+Home
+↓
+About
+↓
+Skills
+↓
+Projects
+↓
+Contact
+```
+
+The portfolio communicates who the developer is before presenting technical work.
+
+---
+
+## DEC-015 — Treat Documentation as Part of the Architecture
+
+**Status:** Accepted
+
+### Context
+
+Project documentation has become a core part of the development workflow.
+
+### Decision
+
+Documentation evolves together with the implementation and reflects the current state of the project.
+
+### Consequences
+
+- Documentation remains synchronized.
+- Architectural evolution is traceable.
+- Project knowledge is preserved over time.
 
 ---
 
@@ -304,7 +393,7 @@ The portfolio will use route-based navigation as its primary navigation strategy
 
 ### architecture.md
 
-Describes the current implementation resulting from these decisions.
+Describes the implementation resulting from these decisions.
 
 ### roadmap.md
 
@@ -313,6 +402,10 @@ Defines future initiatives that may introduce new decisions.
 ### changelog.md
 
 Records the implementation and evolution of accepted decisions.
+
+### deployment.md
+
+Documents operational decisions related to deployment.
 
 ### glossary.md
 
@@ -324,9 +417,11 @@ Defines the terminology used throughout this document.
 
 The terminology used in this document must remain aligned with:
 
-`docs/glossary.md`
+```text
+docs/glossary.md
+```
 
-When new concepts require a shared interpretation, they should be registered in the glossary rather than redefined here.
+When new concepts require a shared interpretation, they should be registered in the glossary instead of being defined here.
 
 ---
 
@@ -334,6 +429,8 @@ When new concepts require a shared interpretation, they should be registered in 
 
 This document records why important decisions were made.
 
-The goal is not to predict the future but to preserve the reasoning that shaped the project at a specific point in time.
+Architectural decisions should remain documented even if they are later replaced, providing historical context for the project's evolution.
 
-When a decision changes, the previous decision should remain documented as historical context, and a new decision should be recorded to explain the evolution of the project.
+When direction changes, a new decision should be recorded instead of rewriting history.
+
+Its primary purpose is to preserve the reasoning behind the portfolio's evolution while supporting long-term maintainability and informed future decisions.

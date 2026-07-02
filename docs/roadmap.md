@@ -65,15 +65,15 @@ The roadmap should remain flexible and may change as priorities evolve.
 
 ## Current Status
 
-The project has completed its foundational planning phase and is transitioning into implementation.
+The project has successfully completed its architectural foundation and is transitioning from core implementation to refinement.
 
 Current priorities include:
 
-- Design system definition.
-- Portfolio implementation.
-- Content creation.
-- Route development.
-- Professional showcase preparation.
+- Completing the Projects section.
+- Refining the design system.
+- Strengthening the professional narrative.
+- Enhancing user experience.
+- Preparing the portfolio for public release.
 
 ---
 
@@ -81,7 +81,7 @@ Current priorities include:
 
 ## RM-001 — Project Foundation
 
-**Status:** Near Completion
+**Status:** Completed
 
 ### Goal
 
@@ -104,7 +104,7 @@ A clear and maintainable foundation for future development.
 
 ## RM-002 — Design System Foundation
 
-**Status:** Planned
+**Status:** In Progress
 
 ### Goal
 
@@ -127,7 +127,7 @@ A reusable and coherent visual system that supports future growth.
 
 ## RM-003 — Portfolio Core Implementation
 
-**Status:** Planned
+**Status:** In Progress
 
 ### Goal
 
@@ -150,7 +150,7 @@ A functional portfolio capable of presenting professional information.
 
 ## RM-004 — Content Development
 
-**Status:** Planned
+**Status:** In Progress
 
 ### Goal
 
@@ -160,10 +160,9 @@ Create and organize portfolio content.
 
 - Create professional profile content.
 - Create developer philosophy content.
-- Create experience content.
 - Create skills content.
-- Create project content.
-- Prepare bilingual content.
+- Create projects content.
+- Complete bilingual content.
 
 ### Expected Outcome
 
@@ -362,6 +361,142 @@ Evaluate alternatives for direct visitor communication.
 ### Expected Outcome
 
 An additional communication channel if justified by project needs.
+
+---
+
+---
+
+## RM-014 — User Experience Refinement
+
+**Status:** Planned
+
+### Goal
+
+Improve the overall navigation experience and perceived quality of the portfolio.
+
+### Scope
+
+- Page transitions.
+- Navigation feedback.
+- Micro-interactions.
+- Loading states.
+- Motion consistency.
+- Interaction polish.
+
+### Expected Outcome
+
+A smoother and more engaging browsing experience that reinforces the portfolio's professional presentation.
+
+---
+
+## RM-015 — Accessibility Improvements
+
+**Status:** Planned
+
+### Goal
+
+Strengthen accessibility across the portfolio.
+
+### Scope
+
+- Semantic HTML review.
+- Keyboard navigation.
+- Screen reader compatibility.
+- Color contrast validation.
+- Responsive accessibility testing.
+
+### Expected Outcome
+
+A portfolio that provides an inclusive experience across different users and devices.
+
+---
+
+## RM-016 — Performance Optimization
+
+**Status:** Planned
+
+### Goal
+
+Optimize loading speed and runtime performance.
+
+### Scope
+
+- Image optimization.
+- Bundle optimization.
+- Asset optimization.
+- Lighthouse improvements.
+- Core Web Vitals review.
+
+### Expected Outcome
+
+A fast, responsive portfolio with excellent production performance.
+
+---
+
+## RM-017 — Engineering Case Studies
+
+**Status:** Future
+
+### Goal
+
+Expand selected projects into complete engineering case studies.
+
+### Scope
+
+- Explain architectural decisions.
+- Describe implementation challenges.
+- Present engineering trade-offs.
+- Document lessons learned.
+- Highlight future improvements.
+
+### Expected Outcome
+
+Projects communicate engineering thinking in addition to implementation details.
+
+---
+
+## RM-018 — AI-Assisted Development Workflow
+
+**Status:** Future
+
+### Goal
+
+Show how AI tools complement the development process.
+
+### Scope
+
+- Explain the documentation-first workflow.
+- Present AI-assisted development practices.
+- Describe validation and review processes.
+- Demonstrate responsible AI usage.
+
+### Expected Outcome
+
+Visitors gain a clear understanding of how modern AI tools are integrated into a professional engineering workflow.
+
+---
+
+## RM-019 — Portfolio Release v1.0.0
+
+**Status:** Future
+
+### Goal
+
+Prepare the first stable public release.
+
+### Scope
+
+- Final content review.
+- Visual refinement.
+- Accessibility validation.
+- Performance verification.
+- Cross-browser testing.
+- Documentation review.
+- Production deployment.
+
+### Expected Outcome
+
+A polished portfolio ready to represent the developer professionally.
 
 ---
 

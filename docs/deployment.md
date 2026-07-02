@@ -4,54 +4,54 @@
 
 This document describes the build, configuration, and deployment process currently used by the Portfolio project.
 
-Its purpose is to provide a clear and up-to-date reference for preparing, publishing, and maintaining a functional version of the application.
+Its purpose is to provide a clear and up-to-date reference for building, publishing, operating, and maintaining the application across its supported environments.
 
-Unlike reusable deployment templates, this document reflects the actual operational process adopted by this portfolio.
+Unlike reusable deployment templates, this document reflects the actual deployment workflow implemented by this portfolio.
 
 ---
 
 ## Objectives
 
-- Document the current deployment workflow.
-- Facilitate publishing new versions.
+- Document the deployment workflow.
+- Facilitate reliable publishing.
 - Reduce operational errors.
-- Centralize build and environment information.
-- Facilitate onboarding of future collaborators.
-- Serve as a reference for maintenance tasks.
+- Centralize deployment information.
+- Support long-term maintenance.
+- Provide a reference for future deployment changes.
 
 ---
 
 ## When to Update this Document
 
-Update this document when there are relevant changes related to:
+Update this document whenever changes affect:
 
 - Deployment platforms.
 - Build processes.
-- Required environment variables.
-- Publishing automations.
-- Infrastructure configuration.
-- External services used during deployment.
+- Environment variables.
+- Deployment automation.
+- Infrastructure.
 - Domain configuration.
-- Release strategies.
+- Release strategy.
+- External services used during deployment.
 
 ---
 
 ## When Not to Update this Document
 
-It is not necessary to update this document for:
+This document should not be updated for:
 
-- Functional changes.
-- Content updates.
-- Visual adjustments.
-- Internal refactors.
-- Routine documentation updates.
-- Changes that do not affect build or deployment.
+- Functional features.
+- Portfolio content.
+- Visual changes.
+- Minor refactors.
+- Documentation unrelated to deployment.
+- Internal implementation details that do not affect publishing.
 
 ---
 
-## Current Deployment
+# Current Deployment
 
-### Application Type
+## Application Type
 
 ```text
 Single Page Application (SPA)
@@ -69,46 +69,48 @@ Vite
 
 ## Deployment Summary
 
-The Portfolio project is a static web application focused on presenting professional information, projects, and development practices.
+The Portfolio project is a static Single Page Application that presents the developer's professional identity, engineering philosophy, technical skills, selected projects, and contact information through a structured user experience.
 
 The application is built using Vite and deployed through Vercel.
 
-Deployment is automated and triggered by repository updates, reducing manual operational tasks and ensuring a consistent publishing workflow.
+Deployment is fully automated through repository integration, providing a predictable publishing workflow while minimizing manual operational tasks.
 
-The project currently does not require backend infrastructure or server-side services.
+The project currently requires no backend infrastructure or server-side services.
 
 ---
 
-## Environments
+# Environments
 
-The project currently uses the following environments:
+The project currently uses two environments.
 
 ```text
 Development
 Production
 ```
 
-### Development
+## Development
 
 Local environment used during active development.
 
-Runs through the Vite development server:
+Run with:
 
 ```bash
 npm run dev
 ```
 
-### Production
+---
 
-Production environment automatically deployed through Vercel.
+## Production
 
-The production version represents the latest stable state of the portfolio.
+Production environment hosted by Vercel.
+
+This environment always represents the latest stable public version of the portfolio.
 
 ---
 
-## Requirements
+# Requirements
 
-The following tools are required to build and maintain the project:
+Deployment requires:
 
 ```text
 Node.js
@@ -116,35 +118,38 @@ npm
 Git
 ```
 
-Access to the repository and deployment platform is also required for publishing and maintenance activities.
+Publishing additionally requires access to:
+
+- GitHub repository
+- Vercel project
 
 ---
 
-## Environment Variables
+# Environment Variables
 
 The project currently does not require custom environment variables.
 
-If environment-specific configuration becomes necessary in the future, variables should be documented here and managed through an appropriate configuration file such as:
+If future integrations require configuration values, they should be documented here together with a corresponding:
 
 ```text
 .env.example
 ```
 
+file.
+
 ---
 
-## Build Process
+# Build Process
 
-The production build is generated using the following commands:
+Generate the production build using:
 
 ```bash
-# Install dependencies
 npm install
 
-# Generate production build
 npm run build
 ```
 
-The generated output is placed in:
+The generated build is placed in:
 
 ```text
 dist/
@@ -152,64 +157,67 @@ dist/
 
 ---
 
-## Vite Configuration
+# Vite Configuration
 
-The project uses Vite as its build tool.
-
-The active configuration is maintained in:
+The build system is configured through:
 
 ```text
 vite.config.js
 ```
 
-Any changes affecting build behavior, routing, asset handling, or localization should be reflected in this document when they impact deployment.
+Changes affecting:
+
+- Routing
+- Build behavior
+- Assets
+- Localization
+
+should be reflected in this document whenever they modify the deployment workflow.
 
 ---
 
-## Deployment Platform
+# Deployment Platform
 
-The project is currently deployed using:
+The portfolio is currently deployed using:
 
 ```text
 Vercel
 ```
 
-Vercel is responsible for:
+Responsibilities include:
 
-- Build execution.
-- Static asset delivery.
-- Production hosting.
-- Automated deployment workflow.
+- Production builds
+- Static asset hosting
+- Automatic deployments
+- Production hosting
 
 ---
 
-## Domain Strategy
+# Domain Strategy
 
-The portfolio currently uses its default deployment domain.
+The portfolio currently uses its default Vercel domain.
 
-Future domain strategies may include:
-
-```text
-username.github.io
-```
-
-or
+Future options include:
 
 ```text
 Custom Domain
 ```
 
-Domain-related changes should be documented when implemented.
+or
+
+```text
+username.github.io
+```
+
+Domain configuration changes should be documented here.
 
 ---
 
-## Automation
+# Automation
 
-The deployment process is automated.
+Deployment is fully automated.
 
-Deployments are triggered through repository updates connected to Vercel.
-
-Current automation includes:
+Repository updates trigger:
 
 ```text
 Automatic Build
@@ -217,83 +225,107 @@ Automatic Deployment
 Production Publishing
 ```
 
-Future automation may include:
+Future improvements may include:
 
 ```text
-Build Validation
 Preview Deployments
-Analytics Integration
+Analytics
+Build Validation
 ```
 
 ---
 
-## Publishing Procedure
+# Publishing Procedure
 
-The recommended process for publishing a new version is:
+Recommended deployment workflow:
 
-1. Verify that the application works correctly in development.
-2. Update relevant documentation when necessary.
-3. Review and commit pending changes.
-4. Push changes to the repository.
-5. Verify that the Vercel deployment completes successfully.
-6. Validate the deployed version.
-7. Confirm that all portfolio sections and navigation flows work correctly.
-
----
-
-## Operational Considerations
-
-### Documentation Synchronization
-
-Any relevant change affecting build or deployment should be reflected in this document to maintain alignment with the actual deployment workflow.
+1. Verify the application locally.
+2. Verify documentation reflects the current implementation.
+3. Review pending changes.
+4. Commit changes.
+5. Push to the repository.
+6. Verify the Vercel deployment.
+7. Validate the deployed portfolio.
+8. Verify every route and navigation flow.
 
 ---
 
-### Case-Sensitive Paths
+# Operational Considerations
 
-The production environment should be treated as case-sensitive.
+## Documentation Consistency
 
-Imports, folder names, and file names must match exactly to avoid deployment issues across different operating systems and hosting environments.
+Project documentation should always describe the current implementation.
 
----
-
-### Single Page Application Routing
-
-The application uses React Router and follows a Single Page Application architecture.
-
-Internal routes and navigation behavior should be validated after deployment to ensure proper operation.
-
-Any routing strategy changes should be documented here.
+Deployment changes affecting architecture, navigation, workflow, or infrastructure should be reflected in the appropriate documentation before publication.
 
 ---
 
-### Localization
+## Documentation Synchronization
 
-The project supports bilingual content.
+Deployment-related changes should remain synchronized with:
 
-Translations are managed directly within the frontend application and do not depend on external localization services.
-
-Any future localization platform or content management integration should be documented as part of the deployment process.
-
----
-
-### Analytics
-
-The project currently does not use analytics services.
-
-If analytics are introduced in the future, the required configuration, deployment considerations, and maintenance procedures should be documented in this file.
+```text
+architecture.md
+deployment.md
+decisions.md
+changelog.md
+```
 
 ---
 
-### Deployment Changes
+## Case-Sensitive Paths
 
-Relevant modifications to deployment platforms, publishing procedures, or infrastructure should also be recorded in:
+Production environments should always be treated as case-sensitive.
+
+Folder names, imports, and filenames must match exactly.
+
+---
+
+## Routing
+
+Navigation is implemented through React Router.
+
+After deployment, verify:
+
+- Every route loads correctly.
+- Internal navigation functions correctly.
+- Direct URL access works as expected.
+
+Changes to routing strategy or information architecture should be documented.
+
+---
+
+## Localization
+
+The portfolio supports bilingual content.
+
+Localized content is currently maintained directly within the frontend application.
+
+Future localization services or content management solutions should be documented here.
+
+---
+
+## Analytics
+
+Analytics are not currently implemented.
+
+Future integrations should document:
+
+- Configuration
+- Deployment considerations
+- Maintenance requirements
+
+---
+
+## Deployment Evolution
+
+Significant deployment changes should also be reflected in:
 
 ```text
 docs/changelog.md
 ```
 
-and, when they involve a significant long-term decision, in:
+Long-term operational decisions should additionally be recorded in:
 
 ```text
 docs/decisions.md
@@ -301,38 +333,36 @@ docs/decisions.md
 
 ---
 
-## Security Considerations
+# Security Considerations
 
-This document must never include:
+This document must never contain:
 
-- Credentials.
-- Tokens.
-- Secrets.
-- Private keys.
-- Sensitive configuration values.
+- Credentials
+- Tokens
+- Secrets
+- Private keys
+- Sensitive configuration
 
-Operational information should always use descriptive placeholders instead of exposing real values.
+Use descriptive placeholders whenever configuration examples are required.
 
 ---
 
-## Terminology
+# Terminology
 
-The terminology used in this document must remain aligned with the definitions established in:
+Terminology used throughout this document should remain consistent with:
 
 ```text
 docs/glossary.md
 ```
 
-When new concepts related to infrastructure, deployment, automation, environments, or hosting require a shared interpretation, they should be registered in the glossary.
-
-This document should use the official project terminology and avoid maintaining duplicate definitions.
+New deployment concepts should be defined in the glossary instead of being redefined here.
 
 ---
 
-## Fundamental Principle
+# Fundamental Principle
 
-This document must represent the actual process currently used to build and deploy the project.
+This document describes the deployment process that is actually implemented.
 
-If the operational workflow changes, the documentation must be updated to reflect the current implementation rather than an idealized or outdated process.
+Whenever the deployment workflow evolves, this document should evolve with it.
 
-Its primary purpose is to serve as the source of truth for publishing, operating, and maintaining the portfolio across its supported environments.
+Its purpose is to remain the single source of truth for building, publishing, operating, and maintaining the portfolio throughout its lifecycle.

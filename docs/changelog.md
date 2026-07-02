@@ -4,7 +4,7 @@
 
 This document records the significant evolution of the Portfolio project over time.
 
-Its purpose is to provide a concise history of relevant changes affecting the portfolio's functionality, architecture, content organization, and user experience.
+Its purpose is to provide a concise history of relevant changes affecting the portfolio's functionality, architecture, information architecture, content organization, and user experience.
 
 This document complements the Git history by highlighting changes that have a meaningful impact on the project's evolution.
 
@@ -30,6 +30,7 @@ Update this document when there are relevant changes related to:
 - Architectural changes.
 - Major application reorganizations.
 - Information architecture changes.
+- Narrative structure changes.
 - Addition or removal of technologies.
 - Deployment process changes.
 - Changes affecting user experience.
@@ -97,39 +98,62 @@ Examples:
 - Obsolete functionality.
 - Important bug fixes.
 
+### Why is this version significant?
+
+Examples:
+
+- Introduces a new navigation strategy.
+- Refines the developer's professional narrative.
+- Improves long-term maintainability.
+
 ---
 
-## Recommended Template
+## Release Philosophy
 
-The changelog should summarize relevant project evolution while keeping entries concise and focused on impact.
+Versions should represent meaningful milestones in the evolution of the portfolio rather than the amount of work completed.
 
-```text
-## [Version] - YYYY-MM-DD
+A release is created when the portfolio reaches a coherent and stable state that reflects a significant improvement in functionality, architecture, content, or user experience.
+
+---
+
+# Version History
+
+## [0.2.0] - 2026-06-30
 
 ### Added
 
--
+- Hero section introducing the developer's professional identity.
+- Narrative-driven About page.
+- Structured Skills section with categorized technologies and engineering practices.
+- Reusable SocialLinks component.
+- Shared navigation layout.
+- Centralized profile content.
+- Contact page built from reusable content modules.
 
 ### Changed
 
--
+- Refined the portfolio's information architecture.
+- Adopted a progressive narrative across portfolio sections.
+- Strengthened component reusability.
+- Improved separation between content and presentation.
+- Consolidated portfolio content into dedicated data modules.
 
 ### Removed
 
--
+- Experience section from the portfolio architecture.
+- Duplicate contact information across components.
 
 ### Fixed
 
--
+- Improved consistency between portfolio pages.
+- Improved long-term maintainability through reusable components.
+- Aligned documentation with the implemented architecture.
 
 ### Notes
 
--
-```
+This version transforms the portfolio from an initial application scaffold into a structured professional portfolio with reusable architecture, centralized content, and a coherent visitor journey.
 
 ---
-
-## Version History
 
 ## [0.1.0] - 2026-06-23
 
@@ -267,13 +291,13 @@ When new concepts related to releases, versioning, or project evolution require 
 
 The changelog complements the Git history.
 
-### Git answers:
+### Git answers
 
 ```text
 What exactly changed?
 ```
 
-### Changelog answers:
+### Changelog answers
 
 ```text
 Why was that change important for the portfolio's evolution?
@@ -291,4 +315,4 @@ The changelog explains the evolution of the portfolio.
 
 For this reason, entries should focus on the impact of changes rather than implementation details.
 
-Its primary purpose is to provide a clear, concise, and maintainable record of the portfolio's evolution while complementing, not replacing, the version control history.
+Its primary purpose is to document the portfolio's evolution by recording meaningful milestones that explain how the project has grown over time while complementing, not replacing, the version control history.

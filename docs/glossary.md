@@ -6,7 +6,7 @@ This document centralizes the definitions of terms used throughout the Portfolio
 
 Its purpose is to reduce ambiguity, facilitate communication, and maintain a consistent vocabulary across the repository.
 
-When a technical, organizational, architectural, or project-specific concept requires a shared interpretation, its definition should be maintained here.
+Whenever a technical, architectural, organizational, or project-specific concept requires a shared interpretation, its definition should be maintained here.
 
 ---
 
@@ -16,14 +16,14 @@ When a technical, organizational, architectural, or project-specific concept req
 - Reduce ambiguity across documentation.
 - Facilitate onboarding and future collaboration.
 - Maintain consistency throughout the repository.
-- Clarify project-specific interpretations of concepts.
+- Clarify project-specific concepts.
 - Support the long-term maintainability of the documentation.
 
 ---
 
 ## When to Update this Document
 
-Update this document when:
+Update this document whenever:
 
 - New terminology is introduced.
 - Frequently used concepts appear across multiple documents.
@@ -36,27 +36,27 @@ Update this document when:
 
 ## When Not to Update this Document
 
-It is not necessary to record:
+Do not record:
 
-- Obvious or universally known definitions.
-- Implementation-specific details.
-- Development rules or conventions.
+- Universally known technical definitions.
+- Implementation details.
+- Development rules.
 - Technical decisions.
-- Temporary information.
-- Version-dependent information.
+- Temporary terminology.
+- Version-specific information.
 - Technology documentation.
 
 ---
 
 ## Writing Guidelines
 
-Glossary entries should follow these principles:
+Glossary entries should:
 
-- Keep definitions concise and easy to understand.
-- Use consistent terminology across all project documents.
+- Remain concise.
+- Use consistent terminology.
 - Avoid circular definitions.
-- Include examples only when they improve clarity.
 - Focus on meaning rather than implementation.
+- Include examples only when they improve clarity.
 - Update existing entries instead of creating duplicates.
 
 ---
@@ -65,39 +65,37 @@ Glossary entries should follow these principles:
 
 ## Architecture
 
-The conceptual organization of the portfolio and the relationship between its main sections, modules, and information flows.
+The overall organization of the portfolio and the relationships between its layers, modules, components, and information flows.
 
-Within this project, architecture refers to the current implementation documented in `docs/architecture.md`.
+The implemented architecture is documented in `docs/architecture.md`.
 
 ---
 
 ## Bilingual Content
 
-Content that can be presented in both Spanish and English while maintaining the same meaning, intent, and professional positioning.
-
-The portfolio adopts bilingual support as part of its communication strategy.
+Content presented in both English and Spanish while preserving the same meaning, intent, and professional positioning.
 
 ---
 
 ## Build
 
-The process of transforming the source code into a production-ready application.
+The process of transforming the project's source code into a production-ready application.
 
-For this project, the build is generated through the Vite build process.
+For this project, builds are generated through Vite.
 
 ---
 
 ## Cat-Inspired Identity
 
-The visual and conceptual design language adopted by the portfolio.
+The visual and conceptual language adopted by the portfolio.
 
-It emphasizes aesthetics, logic, functionality, curiosity, attention to detail, and a distinctive personality while maintaining a professional presentation.
+It emphasizes curiosity, precision, elegance, attention to detail, and thoughtful design while maintaining a professional presentation.
 
 ---
 
-## Centralized Data
+## Centralized Content
 
-A content management approach where portfolio information is maintained through shared data sources rather than being distributed across multiple components.
+An organizational strategy where portfolio information is maintained through dedicated content modules instead of being duplicated across components.
 
 This approach improves consistency, maintainability, and scalability.
 
@@ -105,15 +103,37 @@ This approach improves consistency, maintainability, and scalability.
 
 ## Component
 
-A reusable user interface unit with a single, clearly defined responsibility.
+A reusable user interface element with a single clearly defined responsibility.
 
-The application follows a component-based architecture where components are organized according to their role within the system.
+Components should focus on presentation and interaction rather than data ownership.
+
+---
+
+## Content Layer
+
+The architectural layer responsible for storing the portfolio's information.
+
+Content modules supply data that is consumed by reusable components and portfolio pages.
+
+---
+
+## Content Module
+
+A file responsible for providing structured portfolio information independently of the user interface.
+
+Examples include:
+
+```text
+profile.js
+skills.js
+projects.js
+```
 
 ---
 
 ## Deploy
 
-The process of publishing the application so it becomes accessible to visitors.
+The process of publishing the application so it becomes publicly accessible.
 
 For this project, deployment is performed through Vercel.
 
@@ -121,9 +141,17 @@ For this project, deployment is performed through Vercel.
 
 ## Developer Philosophy
 
-The set of principles, values, and practices that guide software development decisions and project implementation.
+The collection of principles and engineering practices that guide development decisions.
 
-Within this portfolio, developer philosophy serves as a foundational element of the professional narrative.
+Throughout the portfolio, this philosophy is communicated through both written content and technical implementation.
+
+---
+
+## Documentation-Driven Development
+
+A development approach where documentation evolves together with the implementation and remains synchronized with the project.
+
+Documentation describes the current state of the software rather than an idealized design.
 
 ---
 
@@ -131,103 +159,119 @@ Within this portfolio, developer philosophy serves as a foundational element of 
 
 The professional positioning adopted by the portfolio.
 
-It represents experience across frontend and backend development, emphasizing the ability to contribute throughout multiple layers of a software system.
+It represents the ability to contribute across both frontend and backend development while maintaining a holistic understanding of software systems.
 
 ---
 
-## Full Stack Narrative
+## Information Architecture
 
-The coherent story communicated throughout the portfolio that demonstrates experience across different areas of software development.
+The organization and progression of content throughout the portfolio.
 
-Project selection, content organization, and professional presentation should reinforce this narrative.
+Rather than presenting isolated pages, the portfolio guides visitors through a coherent professional narrative.
 
 ---
 
 ## Module
 
-A group of related components or files that share a common responsibility.
-
-Examples within this project include navigation, presentation, project showcase, and contact-related functionality.
+A collection of related files or components sharing a common responsibility.
 
 ---
 
 ## Portfolio
 
-The web application that represents the developer's professional identity, experience, projects, skills, and development philosophy.
-
-It serves as the primary public representation of the developer's work and professional profile.
+The web application representing the developer's professional identity, technical skills, engineering philosophy, selected projects, and contact information.
 
 ---
 
 ## Portfolio Documentation
 
-The collection of documents created to support the development, maintenance, organization, and evolution of the portfolio itself.
+The collection of documents supporting the development, maintenance, and long-term evolution of the portfolio.
 
-Portfolio documentation exists to support the project and is not considered part of the visitor-facing content.
+Documentation is maintained within the repository and is not part of the visitor-facing experience.
 
 ---
 
 ## Portfolio Section
 
-A major content area within the portfolio dedicated to a specific aspect of the developer's profile.
+A major area of the portfolio dedicated to communicating one aspect of the developer's professional profile.
 
-Examples may include philosophy, skills, experience, projects, and contact information.
+Examples include Home, About, Skills, Projects, and Contact.
 
 ---
 
 ## Professional Positioning
 
-The intentional strategy used to communicate the developer's professional identity, strengths, and value proposition.
+The intentional strategy used to communicate the developer's identity, strengths, engineering approach, and value proposition.
 
-Professional positioning influences project selection, portfolio messaging, and content organization.
+---
+
+## Progressive Narrative
+
+An information architecture strategy where each portfolio page builds naturally upon the previous one, creating a coherent visitor journey.
 
 ---
 
 ## Project
 
-A selected piece of work included in the portfolio to demonstrate technical skills, problem-solving capabilities, development practices, and professional experience.
+A selected software project presented to demonstrate engineering practices, technical capabilities, and problem-solving skills.
 
-Projects should support the portfolio's professional narrative.
+Projects should reinforce the portfolio's professional positioning.
 
 ---
 
 ## Project Showcase
 
-The area of the portfolio responsible for presenting selected projects.
-
-Its purpose is to demonstrate technical capabilities, development experience, and practical application of software engineering principles.
+The portfolio section responsible for presenting selected projects and explaining their technical implementation.
 
 ---
 
 ## Repository
 
-A version-controlled project containing source code, documentation, assets, and configuration files.
-
-This repository acts as the source of truth for the portfolio's implementation and documentation.
+The version-controlled source containing the portfolio's implementation, documentation, assets, and configuration.
 
 ---
 
 ## Responsibility
 
-The specific purpose assigned to a file, component, module, or document.
+The single primary purpose assigned to a file, component, module, or document.
 
-Each element should fulfill a single primary responsibility and avoid overlapping concerns.
+Responsibilities should remain focused and avoid unnecessary overlap.
+
+---
+
+## Reusable Component
+
+A component designed to be shared across multiple pages or features without duplicating implementation.
+
+Examples include:
+
+- Navbar
+- Footer
+- SocialLinks
+
+---
+
+## Route Component
+
+A component representing one complete page within the portfolio.
+
+Each route component communicates one distinct part of the professional narrative.
 
 ---
 
 ## Single Page Application (SPA)
 
-A web application that dynamically updates its content without requiring full page reloads.
+A web application that dynamically updates content without performing full page reloads.
 
-The portfolio is implemented as a Single Page Application to provide a streamlined navigation experience.
+The portfolio is implemented as a Single Page Application.
 
 ---
 
 ## Single Source of Truth
 
-A principle stating that information should exist in one official location to avoid duplication and inconsistencies.
+A principle stating that information should exist in one authoritative location.
 
-This principle is applied throughout the project whenever possible.
+Whenever possible, the portfolio centralizes content to avoid duplication and inconsistencies.
 
 ---
 
@@ -235,30 +279,30 @@ This principle is applied throughout the project whenever possible.
 
 The logical organization of the repository and its directories.
 
-The project's structural conventions are documented in `docs/structure.md`.
+Repository organization is documented in `docs/structure.md`.
 
 ---
 
 ## Terminology
 
-The shared vocabulary officially adopted by the project.
+The official vocabulary adopted throughout the project.
 
-Whenever ambiguity exists regarding the meaning of a concept, this glossary should be considered the authoritative reference.
+Whenever uncertainty exists regarding the meaning of a concept, this glossary provides the authoritative definition.
 
 ---
 
 ## Versioning
 
-The process of identifying and managing changes through version numbers.
+The strategy used to identify and manage project evolution through semantic versions.
 
-The project follows the `MAJOR.MINOR.PATCH` convention documented in `docs/changelog.md`.
+The portfolio follows the `MAJOR.MINOR.PATCH` convention documented in `docs/changelog.md`.
 
 ---
 
 ## Fundamental Principle
 
-Documentation should use a consistent and shared terminology.
+Every project document should use a shared and consistent vocabulary.
 
-When there is uncertainty about the meaning of a concept, this document should be considered the official reference for its interpretation within the project.
+When ambiguity exists regarding the interpretation of a concept, this glossary serves as the project's authoritative reference.
 
-Its primary purpose is to establish a common language that improves communication, reduces misunderstandings, and supports the long-term evolution of the portfolio and its documentation.
+Its primary purpose is to establish a common language that improves communication, reduces misunderstandings, and supports the long-term evolution of both the portfolio and its documentation.

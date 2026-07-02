@@ -9,12 +9,6 @@ export const pages = [
   { id: "home", label: "Home", path: "/", component: Home, index: true },
   { id: "about", label: "About", path: "/about", component: About },
   { id: "skills", label: "Skills", path: "/skills", component: Skills },
-  {
-    id: "experience",
-    label: "Experience",
-    path: "/experience",
-    component: Experience,
-  },
   { id: "projects", label: "Projects", path: "/projects", component: Projects },
   { id: "contact", label: "Contact", path: "/contact", component: Contact },
 ];
