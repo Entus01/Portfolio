@@ -139,6 +139,16 @@ For this project, deployment is performed through Vercel.
 
 ---
 
+## Design System
+
+The set of shared visual and interaction guidelines that ensure consistency across the portfolio's user interface.
+
+It defines typography, spacing, color, component behavior, responsiveness, and accessibility considerations, providing a common visual language for future components and pages.
+
+The Design System is planned in `docs/roadmap.md` under RM-002 and, once implemented, should be reflected in `docs/architecture.md`.
+
+---
+
 ## Developer Philosophy
 
 The collection of principles and engineering practices that guide development decisions.

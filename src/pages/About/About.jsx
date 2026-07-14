@@ -48,7 +48,6 @@ export default function About() {
           delivered. Looking back, I don't see two different careers. I see the
           same mindset evolving through a different set of tools.
         </p>
-        <h3>Always looking for another path</h3>
       </section>
 
       <section>

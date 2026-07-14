@@ -181,27 +181,39 @@ The exact composition will depend on the type and size of the project. Some dire
 
 The `tests/` folder is recommended for projects that include automated tests, but it is not a requirement for small repositories or prototypes.
 
+The `docs/` tree shown above represents the full documentation set recommended for medium or large projects. See "Documentation Structure" below for the minimum set recommended for small projects.
+
 ---
 
 ## Documentation Structure
 
 All internal documentation that is part of the project should be centralized within the `docs/` folder.
 
-Recommended structure:
+Documentation adoption follows the same scope defined in `docs/rules.md`: a minimum set for small projects, and an extended set for medium or large projects.
+
+### Minimum Documentation (small projects)
+
+```text
+docs/
+├── changelog.md
+├── roadmap.md
+├── rules.md
+└── structure.md
+```
+
+### Recommended Documentation (medium or large projects)
+
+In addition to the minimum set:
 
 ```text
 docs/
 ├── glossary.md
-├── changelog.md
-├── roadmap.md
-├── rules.md
-├── structure.md
 ├── architecture.md
 ├── decisions.md
 └── deployment.md
 ```
 
-Not all projects need to maintain all of these documents. Their adoption will depend on the scope and needs of the repository.
+Not all projects need to maintain the full set. Their adoption will depend on the scope, size, and complexity of the repository, following the criteria defined in `docs/rules.md`.
 
 ---
 

@@ -162,11 +162,14 @@ Create and organize portfolio content.
 - Create developer philosophy content.
 - Create skills content.
 - Create projects content.
-- Complete bilingual content.
 
 ### Expected Outcome
 
 A complete content layer aligned with the portfolio narrative.
+
+### Note
+
+Bilingual content creation is tracked under RM-006 — Bilingual Experience, to keep it as a single process instead of splitting it across two initiatives.
 
 ---
 
@@ -195,22 +198,22 @@ A portfolio that clearly communicates professional capabilities.
 
 ## RM-006 — Bilingual Experience
 
-**Status:** Planned
+**Status:** In Progress
 
 ### Goal
 
-Provide a consistent multilingual experience.
+Provide a complete and consistent bilingual experience across the portfolio.
 
 ### Scope
 
+- Create bilingual content for every portfolio section.
 - Implement language switching.
-- Support English content.
-- Support Spanish content.
-- Maintain content consistency across languages.
+- Maintain content consistency across English and Spanish.
+- Validate the bilingual experience across all routes.
 
 ### Expected Outcome
 
-A portfolio accessible to both local and international audiences.
+A portfolio accessible to both local and international audiences, with bilingual content and language switching delivered as a single coherent process.
 
 ---
 
@@ -323,23 +326,11 @@ Simplified access to professional information for recruiters and hiring managers
 
 ## RM-012 — Advanced Project Case Studies
 
-**Status:** Future Possibility
+**Status:** Merged into RM-017
 
-### Goal
+### Note
 
-Expand selected projects into detailed case studies.
-
-### Scope
-
-- Document project challenges.
-- Document architectural decisions.
-- Document implementation strategies.
-- Present development outcomes.
-- Evaluate dedicated project routes.
-
-### Expected Outcome
-
-Deeper technical insight into selected projects through dedicated portfolio experiences.
+This initiative was consolidated into RM-017 — Engineering Case Studies to avoid duplication. See RM-017 for the current scope and expected outcome.
 
 ---
 
@@ -448,10 +439,11 @@ Expand selected projects into complete engineering case studies.
 - Present engineering trade-offs.
 - Document lessons learned.
 - Highlight future improvements.
+- Evaluate dedicated project routes for case study presentation.
 
 ### Expected Outcome
 
-Projects communicate engineering thinking in addition to implementation details.
+Projects communicate engineering thinking, trade-offs, and implementation depth beyond what is shown in the standard project showcase.
 
 ---
 
