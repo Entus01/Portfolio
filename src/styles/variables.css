@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Variables
+   Global design tokens for the application.
+   ========================================================================== */
+
+:root {
+  /* ==========================================================================
+       Colors
+       ========================================================================== */
+
+  /* Backgrounds */
+  --color-background: #0f1117;
+  --color-surface: #171a21;
+  --color-border: #2a2f3a;
+
+  /* Text */
+  --color-text-primary: #f5f7fa;
+  --color-text-secondary: #a7b0be;
+
+  /* Feedback */
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  /* Accent */
+  --color-accent: #5da9e9;
+  --color-accent-hover: #7abaf0;
+
+  /* Selection */
+  --color-selection-background: var(--color-accent);
+  --color-selection-text: var(--color-background);
+
+  /* ==========================================================================
+       Typography
+       ========================================================================== */
+  --font-family-heading: "Space Grotesk", sans-serif;
+  --font-family-base: "Inter", sans-serif;
+
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 32px;
+  --font-size-3xl: 40px;
+  --font-size-4xl: 56px;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-base: 1.6;
+  --line-height-heading: 1.2;
+
+  /* ==========================================================================
+       Layout
+       ========================================================================== */
+  /* Dimensions */
+  --header-height: 72px;
+  --footer-height: 64px;
+
+  /* Sections */
+  --section-padding-x: 48px;
+  --section-padding-y: 96px;
+
+  /* Containers */
+  --container-padding: 32px;
+
+  /* ==========================================================================
+       Spacing
+       ========================================================================== */
+  --spacing-4: 4px; /* Minimal gap */
+  --spacing-8: 8px; /* Small spacing */
+  --spacing-16: 16px; /* Default spacing */
+  --spacing-24: 24px; /* Component spacing */
+  --spacing-32: 32px; /* Section spacing */
+  --spacing-48: 48px; /* Large spacing */
+
+  /* ==========================================================================
+       Borders & Shadows
+       ========================================================================== */
+  --radius-sm: 6px; /* Inputs, buttons, chips */
+  --radius-md: 10px; /* Cards, panels, navigation */
+  --border-width-thin: 1px; /* px */
+  --border-default: var(--border-width-thin) solid var(--color-border);
+
+  /* Elevation */
+  /* LVL 0: no shadow */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.12); /*LVL 1*/
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.18); /*LVL 2*/
+
+  /* ==========================================================================
+   Motion
+   ========================================================================== */
+
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+
+  --ease-standard: ease;
+  --ease-in: ease-in;
+  --ease-out: ease-out;
+  --ease-in-out: ease-in-out;
+
+  --transition-default: all var(--duration-base) var(--ease-standard);
+
+  /* ==========================================================================
+   Branding
+   ========================================================================== */
+
+  --brand-font-family: var(--font-family-heading);
+
+  /* ==========================================================================
+   Layers
+   ========================================================================== */
+
+  --z-base: 0;
+  --z-header: 100;
+  --z-dropdown: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+
+  /* ==========================================================================
+   Opacity
+   ========================================================================== */
+
+  --opacity-disabled: 0.4;
+  --opacity-muted: 0.7;
+  --opacity-overlay: 0.9;
+
+  /* ==========================================================================
+   Focus
+   ========================================================================== */
+
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+  --focus-ring-color: var(--color-accent);
+
+  /* ==========================================================================
+   Containers
+   ========================================================================== */
+
+  --container-xs: 480px;
+  --container-sm: 768px;
+  --container-md: 1024px;
+  --container-lg: 1200px;
+  --container-xl: 1440px;
+}
