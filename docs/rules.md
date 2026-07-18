@@ -376,6 +376,22 @@ const canEdit = user.role === "admin";
 - Centralize colors, typography, spacing, and other shared values through variables or design tokens.
 - Maintain visual consistency across modules.
 
+### Design Tokens (`variables.css`)
+
+The `variables.css` file is the single source of truth for the application's design tokens.
+
+### Rules
+
+- Add a new token only when it represents a reusable design decision shared by two or more components.
+- Do not create tokens for component-specific styles (e.g., `--navbar-color`, `--hero-title-size`, `--card-padding`).
+- Prefer semantic names that describe design intent rather than implementation details.
+- Reuse existing tokens before introducing new ones.
+- Keep colors, typography, spacing, layout, motion, and other global values centralized in `variables.css`.
+- Components should consume design tokens instead of hardcoded values.
+- Maintain the existing organization of `variables.css` (Colors, Typography, Layout, Spacing, Borders & Shadows, Motion, Branding, Layers, Opacity, Focus, Containers).
+- Avoid duplicate tokens that represent the same design decision.
+- Treat `variables.css` as a stable design API. Changes should be intentional, documented, and justified.
+
 ### Correct
 
 ```css
