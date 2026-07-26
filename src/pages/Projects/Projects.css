@@ -11,7 +11,7 @@
 
 .projects__list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
   gap: var(--spacing-24);
 }
 
@@ -33,12 +33,18 @@
 
 .projects__card-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: var(--spacing-8);
 }
 
+.projects__card-title {
+  font-size: var(--font-size-xl);
+}
+
 .projects__status {
+  flex-shrink: 0;
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-semibold);
   color: var(--color-accent);
