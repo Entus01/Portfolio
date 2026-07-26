@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-48);
+}
+
+.about__block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-16);
+  max-width: var(--container-md);
+}
+
+.about__block p {
+  color: var(--color-text-secondary);
+}

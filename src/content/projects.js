@@ -38,7 +38,7 @@ export const projects = [
     learned:
       "Well-written documentation becomes part of the architecture itself, making projects easier to understand, maintain, and extend over time.",
     links: {
-      live: "",
+      live: "https://entus01.github.io/Repos-Documentation/",
       github: ["https://github.com/Entus01/Repos-Documentation"],
     },
   },

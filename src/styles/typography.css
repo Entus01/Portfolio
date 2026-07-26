@@ -68,3 +68,13 @@ em {
 small {
     font-size: var(--font-size-sm);
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: var(--font-size-3xl);
+    }
+
+    h2 {
+        font-size: var(--font-size-2xl);
+    }
+}

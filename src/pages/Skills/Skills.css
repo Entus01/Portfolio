@@ -1,0 +1,46 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+}
+
+.skills__intro {
+  max-width: var(--container-sm);
+  color: var(--color-text-secondary);
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--spacing-16);
+}
+
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-8);
+  padding: var(--spacing-16);
+  background-color: var(--color-surface);
+  border: var(--border-default);
+  border-radius: var(--radius-md);
+  text-align: center;
+  transition: var(--transition-default);
+}
+
+.skills__item:hover {
+  border-color: var(--color-accent);
+}
+
+.skills__icon {
+  /* Content data currently holds placeholder text instead of a real asset URL;
+     hidden until real skill icons are added. */
+  display: none;
+}
+
+.skills__name {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+}

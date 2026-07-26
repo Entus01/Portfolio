@@ -55,6 +55,8 @@
   --line-height-base: 1.6;
   --line-height-heading: 1.2;
 
+  --letter-spacing-wide: 0.5px; /* Uppercase eyebrow labels shared by Footer and Projects */
+
   /* ==========================================================================
        Layout
        ========================================================================== */

@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-24);
+}
+
+.home__subtitle {
+  color: var(--color-text-secondary);
+  font-weight: var(--font-weight-medium);
+}
+
+.home__description {
+  max-width: var(--container-sm);
+  color: var(--color-text-secondary);
+}

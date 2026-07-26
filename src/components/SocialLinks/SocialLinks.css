@@ -1,0 +1,35 @@
+.social-links {
+  display: flex;
+  gap: var(--spacing-16);
+}
+
+.social-links--list {
+  flex-direction: column;
+  gap: var(--spacing-8);
+}
+
+.social-links__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-8);
+  color: var(--color-text-secondary);
+  transition: var(--transition-default);
+}
+
+.social-links__link:hover {
+  color: var(--color-accent);
+}
+
+.social-links__link:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}
+
+.social-links__icon {
+  width: var(--font-size-lg);
+  height: var(--font-size-lg);
+}
+
+.social-links__label {
+  font-size: var(--font-size-sm);
+}

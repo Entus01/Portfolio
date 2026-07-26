@@ -1,11 +1,12 @@
 //I don't believe software is built by writing code.
 //I believe it is built by understanding problems first.
+import "./About.css";
 
 export default function About() {
   return (
-    <>
+    <section className="about">
       <h2>About Me</h2>
-      <section>
+      <section className="about__block">
         <h3>How it started</h3>
         <p>
           Before becoming a software developer, I spent years solving
@@ -21,7 +22,7 @@ export default function About() {
         </p>
       </section>
 
-      <section>
+      <section className="about__block">
         <h3>Building on solid foundations</h3>
         <p>
           Good software starts long before the first line of code. Over time, I
@@ -36,7 +37,7 @@ export default function About() {
         </p>
       </section>
 
-      <section>
+      <section className="about__block">
         <h3>From process to software</h3>
         <p>
           My transition into software development wasn't a departure from what I
@@ -50,7 +51,7 @@ export default function About() {
         </p>
       </section>
 
-      <section>
+      <section className="about__block">
         <h3>Always looking for another path</h3>
         <p>
           The first solution is rarely the only one. What motivates me most is
@@ -64,6 +65,6 @@ export default function About() {
           is what continues to motivate me every time I begin a new project.
         </p>
       </section>
-    </>
+    </section>
   );
 }

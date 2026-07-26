@@ -1,51 +1,75 @@
 import { projects } from "../../content/projects.js";
+import "./Projects.css";
 
 export default function Projects() {
   return (
-    <>
-      <h1>Projects</h1>
-      <p>
+    <section className="projects">
+      <h1 className="projects__title">Projects</h1>
+      <p className="projects__intro">
         Good software is rarely the result of writing code alone. <br /> Every
         project begins with understanding the problem, organizing the work, and
         making decisions that keep the solution maintainable as it grows. <br />
         The projects below reflect that process as much as the final result.
       </p>
 
-      <section>
+      <ul className="projects__list">
         {projects.map((project) => (
-          <li key={project.id}>
-            <h2>{project.name}</h2>
-            <p>{project.status}</p>
+          <li key={project.id} className="projects__card">
+            <div className="projects__card-header">
+              <h2 className="projects__card-title">{project.name}</h2>
+              <span className="projects__status">{project.status}</span>
+            </div>
 
-            <div>
-              <h3>Proyect Overview</h3>
+            <div className="projects__card-block">
+              <h3 className="projects__card-subtitle">Project Overview</h3>
               <p>{project.overview}</p>
             </div>
 
-            <div>
-              <h3>Engineering Highlights</h3>
-              <p>{project.highlights}</p>
+            <div className="projects__card-block">
+              <h3 className="projects__card-subtitle">
+                Engineering Highlights
+              </h3>
+              <ul className="projects__tags">
+                {project.highlights.map((highlight) => (
+                  <li key={highlight} className="projects__tag">
+                    {highlight}
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <div>
-              <h3>Technologies</h3>
-              <p>{project.technologies}</p>
-            </div>
-
-            <div>
-              <h3>What I learned</h3>
+            <div className="projects__card-block">
+              <h3 className="projects__card-subtitle">What I learned</h3>
               <p>{project.learned}</p>
             </div>
 
-            <div>
-              <h3>Links</h3>
-              <p>
-                {project.links.live} & {project.links.github}
-              </p>
+            <div className="projects__card-links">
+              {project.links.live && (
+                <a
+                  href={project.links.live}
+                  className="button button--primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>
+              )}
+
+              {project.links.github.map((repo) => (
+                <a
+                  key={repo}
+                  href={repo}
+                  className="button button--secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              ))}
             </div>
           </li>
         ))}
-      </section>
-    </>
+      </ul>
+    </section>
   );
 }
