@@ -14,7 +14,7 @@ export default function Home() {
         ready to evolve. Every project reflects a structured approach focused on
         solving real problems with clarity, consistency, and purpose.
       </p>
-      <Link to="/projects" className="button button--primary">
+      <Link to="/projects" className="button button--primary" viewTransition>
         View my work
       </Link>
     </section>

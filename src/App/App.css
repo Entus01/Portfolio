@@ -18,6 +18,8 @@
   max-width: var(--container-lg);
   margin-inline: auto;
   padding: var(--section-padding-y) var(--section-padding-x);
+  view-transition-name: page;
+  animation: fade-in-up var(--duration-base) var(--ease-out) forwards;
 }
 
 .app > footer {
@@ -27,5 +29,52 @@
 @media (max-width: 768px) {
   .app > main {
     padding: var(--spacing-48) var(--container-padding);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(var(--spacing-16));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==========================================================================
+   Route transition
+   Styles the browser's View Transitions API snapshots for the "page"
+   element (see .app > main above), triggered via the `viewTransition` prop
+   on navigational Links. Unsupported browsers fall back to an instant swap.
+   ========================================================================== */
+
+::view-transition-old(page),
+::view-transition-new(page) {
+  animation-duration: var(--duration-base);
+  animation-timing-function: var(--ease-standard);
+}
+
+::view-transition-old(page) {
+  animation-name: page-out;
+}
+
+::view-transition-new(page) {
+  animation-name: page-in;
+}
+
+@keyframes page-out {
+  to {
+    opacity: 0;
+    transform: translateX(calc(-1 * var(--spacing-24)));
+  }
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateX(var(--spacing-24));
   }
 }

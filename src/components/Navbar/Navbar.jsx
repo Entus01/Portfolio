@@ -11,6 +11,7 @@ export default function Navbar() {
           to={page.path}
           end={page.path === "/"}
           className="navbar__link"
+          viewTransition
         >
           {page.label}
         </NavLink>
